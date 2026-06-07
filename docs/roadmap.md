@@ -211,7 +211,7 @@ Goal: explain the basic concepts required before installing tools.
 Planned work:
 
 - add an introduction to terminals,
-- explain files, folders, and paths,
+- add a guide to files, folders, and paths,
 - explain basic terminal commands,
 - compare PowerShell and Unix-like shells at a beginner level.
 
