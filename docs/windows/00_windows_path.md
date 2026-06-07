@@ -213,4 +213,4 @@ The guide will mention this when needed.
 
 Next, learn how to open PowerShell:
 
-- [Basic Terminal Commands](01_open_powershell.md)
+- [Open PowerShell](01_open_powershell.md)
