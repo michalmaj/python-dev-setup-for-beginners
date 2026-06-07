@@ -18,6 +18,14 @@ This repository is for people who are new to programming tools and want to learn
 
 This repository is under active development.
 
+## Start here
+
+If you are completely new to developer tools, start with:
+
+- [Start Here](docs/00_start_here.md)
+
+This guide intentionally starts before Python itself. It first explains terminals, folders, command-line basics, Git, GitHub, VS Code, and only then moves to creating a Python project with `uv`.
+
 ## Planned learning paths
 
 - Windows
