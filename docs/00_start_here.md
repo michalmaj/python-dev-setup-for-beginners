@@ -58,6 +58,12 @@ After that, continue with the shared sections:
 4. First commit and push
 5. Troubleshooting
 
+## Project roadmap
+
+The full project roadmap is available here:
+
+- [Project Roadmap](roadmap.md)
+
 ## Learning paths
 
 ### Windows path

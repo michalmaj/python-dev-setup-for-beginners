@@ -26,6 +26,12 @@ If you are completely new to developer tools, start with:
 
 This guide intentionally starts before Python itself. It first explains terminals, folders, command-line basics, Git, GitHub, VS Code, and only then moves to creating a Python project with `uv`.
 
+## Roadmap
+
+The planned structure and development order are described here:
+
+- [Project Roadmap](docs/roadmap.md)
+
 ## Planned learning paths
 
 - Windows
