@@ -212,7 +212,7 @@ Planned work:
 
 - add an introduction to terminals,
 - add a guide to files, folders, and paths,
-- explain basic terminal commands,
+- add a guide to basic terminal commands,
 - compare PowerShell and Unix-like shells at a beginner level.
 
 ### Milestone 3: Windows setup path
