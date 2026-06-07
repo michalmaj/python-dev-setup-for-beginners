@@ -222,7 +222,7 @@ Goal: create the first complete operating system path.
 Planned work:
 
 - add a Windows path overview,
-- explain how to open PowerShell,
+- add a guide to opening PowerShell,
 - explain basic PowerShell commands,
 - create a recommended projects folder,
 - install Chocolatey,
