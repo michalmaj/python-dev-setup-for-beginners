@@ -64,6 +64,14 @@ The full project roadmap is available here:
 
 - [Project Roadmap](roadmap.md)
 
+## Documentation style
+
+This repository follows a beginner-first documentation style.
+
+The writing rules are described here:
+
+- [Documentation Conventions](conventions.md)
+
 ## Learning paths
 
 ### Windows path
