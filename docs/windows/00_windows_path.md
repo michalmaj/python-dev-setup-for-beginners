@@ -151,6 +151,10 @@ Example:
 C:\Users\YourName\Documents\Projects
 ```
 
+You will create this folder in the dedicated guide:
+
+- [Create a Projects Folder](03_create_projects_folder.md)
+
 Later, you will create this folder and use it for your first Python project.
 
 Avoid spaces in beginner project folder names.
