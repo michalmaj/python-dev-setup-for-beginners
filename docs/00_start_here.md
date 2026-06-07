@@ -44,7 +44,13 @@ By the end of this guide, you should be able to:
 
 This repository is organized into several learning paths.
 
-Start with the path for your operating system:
+Start with the basic concepts:
+
+1. [What Is a Terminal?](01_what_is_a_terminal.md)
+2. [Files, Folders, and Paths](02_files_folders_and_paths.md)
+3. [Basic Terminal Commands](03_basic_terminal_commands.md)
+
+Then continue with the path for your operating system:
 
 1. Windows
 2. Linux
