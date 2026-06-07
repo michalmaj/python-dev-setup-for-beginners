@@ -32,6 +32,12 @@ The planned structure and development order are described here:
 
 - [Project Roadmap](docs/roadmap.md)
 
+## Documentation conventions
+
+This repository follows beginner-first documentation rules:
+
+- [Documentation Conventions](docs/conventions.md)
+
 ## Planned learning paths
 
 - Windows
