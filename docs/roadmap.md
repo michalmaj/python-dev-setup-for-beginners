@@ -225,7 +225,7 @@ Planned work:
 - add a guide to opening PowerShell,
 - add a guide to basic PowerShell commands,
 - add a guide to creating a recommended projects folder,
-- install Chocolatey,
+- add a guide to installing Chocolatey,
 - install Git,
 - install VS Code,
 - install `uv`,
