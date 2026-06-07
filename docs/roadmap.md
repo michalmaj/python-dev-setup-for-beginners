@@ -221,13 +221,15 @@ Goal: create the first complete operating system path.
 
 Planned work:
 
-- opening PowerShell,
-- basic PowerShell commands,
-- installing Chocolatey,
-- installing Git,
-- installing VS Code,
-- installing `uv`,
-- creating the first project.
+- add a Windows path overview,
+- explain how to open PowerShell,
+- explain basic PowerShell commands,
+- create a recommended projects folder,
+- install Chocolatey,
+- install Git,
+- install VS Code,
+- install `uv`,
+- create the first project.
 
 ### Milestone 4: Git and GitHub workflow
 

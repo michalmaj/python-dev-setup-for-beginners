@@ -84,6 +84,10 @@ The writing rules are described here:
 
 Recommended for people using Windows 10 or Windows 11.
 
+Start here:
+
+- [Windows Path](windows/00_windows_path.md)
+
 You will learn how to:
 
 - open PowerShell,
