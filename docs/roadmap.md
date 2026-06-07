@@ -223,7 +223,7 @@ Planned work:
 
 - add a Windows path overview,
 - add a guide to opening PowerShell,
-- explain basic PowerShell commands,
+- add a guide to basic PowerShell commands,
 - create a recommended projects folder,
 - install Chocolatey,
 - install Git,
