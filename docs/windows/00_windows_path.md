@@ -62,11 +62,11 @@ Follow the Windows path in this order:
 15. Make the first commit
 16. Push the project to GitHub
 
-## Planned pages
+## Current status
 
-The Windows path will be split into small pages.
+The Windows path is in progress.
 
-Planned structure:
+Available now:
 
 ```text
 docs/windows/
@@ -74,7 +74,13 @@ docs/windows/
 ├── 01_open_powershell.md
 ├── 02_basic_powershell_commands.md
 ├── 03_create_projects_folder.md
-├── 04_install_chocolatey.md
+└── 04_install_chocolatey.md
+```
+
+Planned next:
+
+```text
+docs/windows/
 ├── 05_install_git.md
 ├── 06_configure_git.md
 ├── 07_install_vscode.md
@@ -84,7 +90,7 @@ docs/windows/
 └── 11_create_first_uv_project.md
 ```
 
-GitHub-related topics may also link to the shared Git and GitHub section.
+GitHub-related topics may also link to a shared Git and GitHub section when it is added.
 
 ## Why Windows first?
 
@@ -122,13 +128,13 @@ and:
 Get-ChildItem
 ```
 
-## Windows Terminal
+### Windows Terminal
 
 Windows Terminal is an application that can open PowerShell and other shells.
 
 It is like a modern terminal window.
 
-## VS Code terminal
+### VS Code terminal
 
 The VS Code terminal is a terminal panel inside Visual Studio Code.
 
