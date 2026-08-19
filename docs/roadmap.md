@@ -192,11 +192,19 @@ Planned topics:
 
 ## Suggested milestones
 
+Status labels:
+
+- `Done` means the first version exists.
+- `In progress` means some pages exist, but the section is not complete yet.
+- `Planned` means the section has not been written yet.
+
 ### Milestone 1: Repository foundation
+
+Status: Done
 
 Goal: create the initial repository structure and navigation.
 
-Planned work:
+Scope:
 
 - create the repository structure,
 - add the main README,
@@ -206,9 +214,11 @@ Planned work:
 
 ### Milestone 2: Terminal fundamentals
 
+Status: Done
+
 Goal: explain the basic concepts required before installing tools.
 
-Planned work:
+Scope:
 
 - add an introduction to terminals,
 - add a guide to files, folders, and paths,
@@ -217,9 +227,11 @@ Planned work:
 
 ### Milestone 3: Windows setup path
 
+Status: In progress
+
 Goal: create the first complete operating system path.
 
-Planned work:
+Scope:
 
 - add a Windows path overview,
 - add a guide to opening PowerShell,
@@ -233,9 +245,11 @@ Planned work:
 
 ### Milestone 4: Git and GitHub workflow
 
+Status: Planned
+
 Goal: teach the first full GitHub workflow.
 
-Planned work:
+Scope:
 
 - Git vs GitHub,
 - Git configuration,
@@ -246,9 +260,11 @@ Planned work:
 
 ### Milestone 5: VS Code workflow
 
+Status: Planned
+
 Goal: teach how to work inside VS Code.
 
-Planned work:
+Scope:
 
 - opening a project folder,
 - using the Explorer,
@@ -258,9 +274,11 @@ Planned work:
 
 ### Milestone 6: Linux setup path
 
+Status: Planned
+
 Goal: add the Linux version of the setup guide.
 
-Planned work:
+Scope:
 
 - Ubuntu/Debian-focused setup,
 - Git installation,
@@ -270,9 +288,11 @@ Planned work:
 
 ### Milestone 7: macOS setup path
 
+Status: Planned
+
 Goal: add the macOS version of the setup guide.
 
-Planned work:
+Scope:
 
 - Terminal basics,
 - Homebrew explanation,
@@ -283,9 +303,11 @@ Planned work:
 
 ### Milestone 8: Troubleshooting and polish
 
+Status: Planned
+
 Goal: improve beginner experience.
 
-Planned work:
+Scope:
 
 - common errors,
 - screenshots,

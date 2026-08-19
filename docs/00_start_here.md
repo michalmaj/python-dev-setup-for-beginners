@@ -50,13 +50,18 @@ Start with the basic concepts:
 2. [Files, Folders, and Paths](02_files_folders_and_paths.md)
 3. [Basic Terminal Commands](03_basic_terminal_commands.md)
 
-Then continue with the path for your operating system:
+Then continue with the path for your operating system.
 
-1. Windows
-2. Linux
-3. macOS
+Available now:
 
-After that, continue with the shared sections:
+1. [Windows](windows/00_windows_path.md)
+
+Planned later:
+
+1. Linux
+2. macOS
+
+After that, later sections will cover:
 
 1. Git and GitHub
 2. Visual Studio Code
@@ -88,21 +93,29 @@ Start here:
 
 - [Windows Path](windows/00_windows_path.md)
 
-You will learn how to:
+Available now:
 
-- open PowerShell,
-- use basic PowerShell commands,
-- install Chocolatey,
-- install Git,
-- install Visual Studio Code,
-- install `uv`,
-- create your first Python project.
+1. Open PowerShell
+2. Learn basic PowerShell commands
+3. Create a projects folder
+4. Install Chocolatey
+
+Planned next:
+
+1. Install Git
+2. Configure Git
+3. Create a GitHub account
+4. Install Visual Studio Code
+5. Install `uv`
+6. Create your first Python project
 
 ### Linux path
 
 Recommended for people using Ubuntu, Debian, or similar Linux distributions.
 
-You will learn how to:
+This path is planned, but not written yet.
+
+It will cover:
 
 - open the terminal,
 - use basic shell commands,
@@ -116,7 +129,9 @@ You will learn how to:
 
 Recommended for people using macOS.
 
-You will learn how to:
+This path is planned, but not written yet.
+
+It will cover:
 
 - open Terminal,
 - use basic shell commands,

@@ -11,7 +11,7 @@ This repository is for people who are new to programming tools and want to learn
 - create and configure a GitHub account,
 - connect Git with GitHub,
 - install Visual Studio Code,
-- create a Python project with uv,
+- create a Python project with `uv`,
 - open and run the project in VS Code.
 
 ## Status
@@ -38,11 +38,11 @@ This repository follows beginner-first documentation rules:
 
 - [Documentation Conventions](docs/conventions.md)
 
-## Planned learning paths
+## Learning paths
 
-- Windows
-- Linux
-- macOS
+- Windows path: in progress
+- Linux path: planned
+- macOS path: planned
 
 ## Related project
 
