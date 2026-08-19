@@ -66,6 +66,7 @@ Planned topics:
 - opening PowerShell,
 - understanding PowerShell basics,
 - basic file and folder commands,
+- what Git and GitHub are,
 - installing Chocolatey,
 - installing Git,
 - configuring Git,
@@ -238,7 +239,8 @@ Scope:
 - add a guide to basic PowerShell commands,
 - add a guide to creating a recommended projects folder,
 - add a guide to installing Chocolatey,
-- install Git,
+- add a guide to installing Git,
+- add a guide to configuring Git,
 - install VS Code,
 - install `uv`,
 - create the first project.

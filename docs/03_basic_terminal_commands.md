@@ -665,5 +665,5 @@ You do not need hundreds of commands to get started.
 Next, choose the setup path for your operating system:
 
 - [Windows Path](windows/00_windows_path.md)
-- Linux path
-- macOS path
+- Linux path: planned
+- macOS path: planned

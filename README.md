@@ -26,6 +26,22 @@ If you are completely new to developer tools, start with:
 
 This guide intentionally starts before Python itself. It first explains terminals, folders, command-line basics, Git, GitHub, VS Code, and only then moves to creating a Python project with `uv`.
 
+## Current progress
+
+Available now:
+
+- terminal basics,
+- files, folders, and paths,
+- basic terminal commands,
+- Windows path through Git installation and configuration.
+
+Planned next:
+
+- GitHub account setup,
+- VS Code setup,
+- `uv` installation,
+- the first Python project.
+
 ## Roadmap
 
 The planned structure and development order are described here:

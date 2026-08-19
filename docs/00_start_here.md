@@ -49,6 +49,7 @@ Start with the basic concepts:
 1. [What Is a Terminal?](01_what_is_a_terminal.md)
 2. [Files, Folders, and Paths](02_files_folders_and_paths.md)
 3. [Basic Terminal Commands](03_basic_terminal_commands.md)
+4. [What Are Git and GitHub?](04_what_are_git_and_github.md)
 
 Then continue with the path for your operating system.
 
@@ -99,15 +100,15 @@ Available now:
 2. Learn basic PowerShell commands
 3. Create a projects folder
 4. Install Chocolatey
+5. Install Git
+6. Configure Git
 
 Planned next:
 
-1. Install Git
-2. Configure Git
-3. Create a GitHub account
-4. Install Visual Studio Code
-5. Install `uv`
-6. Create your first Python project
+1. Create a GitHub account
+2. Install Visual Studio Code
+3. Install `uv`
+4. Create your first Python project
 
 ### Linux path
 
