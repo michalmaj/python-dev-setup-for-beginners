@@ -274,6 +274,6 @@ choco --version
 
 ## Next step
 
-The next planned Windows page is `05_install_git.md`.
+Next, install Git:
 
-For now, stop here unless that page already exists in your copy of the repository.
+- [Install Git on Windows](05_install_git.md)
