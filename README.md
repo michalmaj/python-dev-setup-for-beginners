@@ -33,11 +33,10 @@ Available now:
 - terminal basics,
 - files, folders, and paths,
 - basic terminal commands,
-- Windows path through Git installation and configuration.
+- Windows path through the first push to GitHub.
 
 Planned next:
 
-- GitHub account setup,
 - VS Code setup,
 - `uv` installation,
 - the first Python project.

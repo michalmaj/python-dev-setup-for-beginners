@@ -102,13 +102,16 @@ Available now:
 4. Install Chocolatey
 5. Install Git
 6. Configure Git
+7. Create a GitHub account
+8. Create a local Git repository
+9. Create a repository on GitHub
+10. Connect Git with GitHub
 
 Planned next:
 
-1. Create a GitHub account
-2. Install Visual Studio Code
-3. Install `uv`
-4. Create your first Python project
+1. Install Visual Studio Code
+2. Install `uv`
+3. Create your first Python project
 
 ### Linux path
 
