@@ -78,10 +78,13 @@ docs/linux/
 ├── 03_create_projects_folder.md
 ├── 04_install_git.md
 ├── 05_configure_git.md
-└── 06_create_local_git_repository.md
+├── 06_create_local_git_repository.md
+├── 07_create_github_account.md
+├── 08_create_github_repository.md
+└── 09_connect_git_with_github.md
 ```
 
-Later pages will add GitHub, VS Code, `uv`, and the first Python project workflow.
+Later pages will add VS Code, `uv`, and the first Python project workflow.
 
 ## Why start with Ubuntu and Debian?
 

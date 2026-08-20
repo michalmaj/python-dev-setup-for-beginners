@@ -256,4 +256,6 @@ create or edit files -> git add -> git commit
 
 ## Next step
 
-Next, this guide will continue with creating a repository on GitHub.
+Next, create a GitHub account:
+
+- [Create a GitHub Account](07_create_github_account.md)
