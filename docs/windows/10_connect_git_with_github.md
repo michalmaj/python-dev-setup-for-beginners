@@ -246,4 +246,4 @@ git push -u origin main
 
 Next, install Visual Studio Code.
 
-The VS Code installation page is planned, but not written yet.
+- [Install Visual Studio Code](11_install_vscode.md)

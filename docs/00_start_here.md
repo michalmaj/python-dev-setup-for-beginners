@@ -106,12 +106,14 @@ Available now:
 8. Create a local Git repository
 9. Create a repository on GitHub
 10. Connect Git with GitHub
+11. Install Visual Studio Code
+12. Open a project folder in VS Code
+13. Open the VS Code terminal
 
 Planned next:
 
-1. Install Visual Studio Code
-2. Install `uv`
-3. Create your first Python project
+1. Install `uv`
+2. Create your first Python project
 
 ### Linux path
 

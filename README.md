@@ -33,11 +33,10 @@ Available now:
 - terminal basics,
 - files, folders, and paths,
 - basic terminal commands,
-- Windows path through the first push to GitHub.
+- Windows path through VS Code and its integrated terminal.
 
 Planned next:
 
-- VS Code setup,
 - `uv` installation,
 - the first Python project.
 

@@ -266,7 +266,7 @@ Scope:
 
 ### Milestone 5: VS Code workflow
 
-Status: Planned
+Status: In progress
 
 Goal: teach how to work inside VS Code.
 
@@ -275,7 +275,7 @@ Scope:
 - opening a project folder,
 - using the Explorer,
 - using the integrated terminal,
-- running Python code,
+- preparing the terminal for later Python commands,
 - understanding common beginner mistakes.
 
 ### Milestone 6: Linux setup path
