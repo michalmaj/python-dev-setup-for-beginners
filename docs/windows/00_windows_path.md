@@ -80,21 +80,21 @@ docs/windows/
 ├── 07_create_github_account.md
 ├── 08_create_local_git_repository.md
 ├── 09_create_github_repository.md
-└── 10_connect_git_with_github.md
+├── 10_connect_git_with_github.md
+├── 11_install_vscode.md
+├── 12_open_project_in_vscode.md
+└── 13_open_vscode_terminal.md
 ```
 
 Planned next:
 
 ```text
 docs/windows/
-├── 11_install_vscode.md
-├── 12_open_project_in_vscode.md
-├── 13_open_vscode_terminal.md
 ├── 14_install_uv.md
 └── 15_create_first_uv_project.md
 ```
 
-The first GitHub flow uses a small practice repository before the guide moves on to VS Code and `uv`.
+The next planned step is installing `uv` and creating the first Python project.
 
 ## Why Windows first?
 
