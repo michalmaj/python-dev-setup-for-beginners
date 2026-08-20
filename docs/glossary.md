@@ -14,6 +14,28 @@ Example:
 git status
 ```
 
+## Package manager
+
+A package manager installs, updates, and removes software.
+
+On Ubuntu and Debian, this guide uses `apt`.
+
+## apt
+
+`apt` is a command-line package manager used by Ubuntu, Debian, and similar Linux distributions.
+
+Example:
+
+```bash
+sudo apt install git
+```
+
+## sudo
+
+`sudo` runs a command with administrator permissions.
+
+Linux may ask for your password when you use it.
+
 ## Terminal
 
 A terminal is a place where you type commands.
@@ -41,6 +63,18 @@ In this guide, Linux terminal examples use Bash-style commands.
 A folder is a place that contains files or other folders.
 
 Developers often call folders `directories`.
+
+## Hidden folder
+
+A hidden folder is a folder that is usually not shown by default.
+
+On Linux, hidden file and folder names often start with a dot.
+
+Example:
+
+```text
+.git
+```
 
 ## Path
 
