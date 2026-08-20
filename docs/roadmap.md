@@ -228,7 +228,7 @@ Scope:
 
 ### Milestone 3: Windows setup path
 
-Status: In progress
+Status: Done
 
 Goal: create the first complete operating system path.
 
@@ -245,9 +245,12 @@ Scope:
 - add a guide to creating a local Git repository,
 - add a guide to creating an empty GitHub repository,
 - add a guide to pushing the first commit to GitHub,
-- install VS Code,
-- install `uv`,
-- create the first project.
+- add a guide to installing VS Code,
+- add a guide to opening a project in VS Code,
+- add a guide to opening the VS Code terminal,
+- add a guide to installing `uv`,
+- add a guide to creating the first Python project,
+- add a guide to making the first project commit.
 
 ### Milestone 4: Git and GitHub workflow
 
@@ -266,7 +269,7 @@ Scope:
 
 ### Milestone 5: VS Code workflow
 
-Status: In progress
+Status: Done
 
 Goal: teach how to work inside VS Code.
 
@@ -275,7 +278,7 @@ Scope:
 - opening a project folder,
 - using the Explorer,
 - using the integrated terminal,
-- preparing the terminal for later Python commands,
+- running Python commands from the integrated terminal,
 - understanding common beginner mistakes.
 
 ### Milestone 6: Linux setup path

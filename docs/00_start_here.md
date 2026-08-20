@@ -109,11 +109,15 @@ Available now:
 11. Install Visual Studio Code
 12. Open a project folder in VS Code
 13. Open the VS Code terminal
+14. Install `uv`
+15. Create your first Python project
+16. Make the first project commit
 
 Planned next:
 
-1. Install `uv`
-2. Create your first Python project
+1. Troubleshooting and polish
+2. Linux path
+3. macOS path
 
 ### Linux path
 

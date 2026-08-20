@@ -33,12 +33,13 @@ Available now:
 - terminal basics,
 - files, folders, and paths,
 - basic terminal commands,
-- Windows path through VS Code and its integrated terminal.
+- complete first Windows path through a Python project created with `uv`.
 
 Planned next:
 
-- `uv` installation,
-- the first Python project.
+- troubleshooting and polish,
+- Linux path,
+- macOS path.
 
 ## Roadmap
 

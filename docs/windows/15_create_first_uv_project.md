@@ -252,4 +252,4 @@ uv run main.py
 
 Next, learn how to make a small change and save it with Git.
 
-The first project commit page is planned, but not written yet.
+- [Make the First Project Commit](16_make_first_project_commit.md)
