@@ -292,7 +292,8 @@ Scope:
 - Ubuntu/Debian-focused setup,
 - terminal and shell basics,
 - projects folder setup,
-- Git installation,
+- Git installation and configuration,
+- local Git repository practice,
 - VS Code installation,
 - `uv` installation,
 - first project workflow.
