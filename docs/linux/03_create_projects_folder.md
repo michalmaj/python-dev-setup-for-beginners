@@ -293,4 +293,6 @@ This makes later commands easier to understand.
 
 ## Next step
 
-Next, this guide will continue with installing and configuring Git on Linux.
+Next, install Git on Linux:
+
+- [Install Git on Linux](04_install_git.md)

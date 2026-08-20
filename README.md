@@ -35,7 +35,7 @@ Available now:
 - basic terminal commands,
 - complete first Windows path through a Python project created with `uv`,
 - Windows completion checklist and troubleshooting,
-- Linux path foundation.
+- Linux path foundation through a local Git repository.
 
 Planned next:
 

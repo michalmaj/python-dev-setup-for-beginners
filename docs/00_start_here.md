@@ -137,12 +137,14 @@ Available now:
 1. Open the terminal
 2. Learn basic shell commands
 3. Create a projects folder
+4. Install Git
+5. Configure Git
+6. Create a local Git repository
 
 Planned next:
 
-1. Install Git
-2. Configure Git
-3. Continue through GitHub, VS Code, `uv`, and the first Python project
+1. Create a GitHub account
+2. Continue through GitHub, VS Code, `uv`, and the first Python project
 
 The full Linux path will cover:
 

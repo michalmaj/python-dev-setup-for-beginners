@@ -51,8 +51,8 @@ Follow the Linux path in this order:
 3. Create a projects folder
 4. Install Git
 5. Configure Git
-6. Create a GitHub account
-7. Create a local Git repository
+6. Create a local Git repository
+7. Create a GitHub account
 8. Create a repository on GitHub
 9. Connect Git with GitHub
 10. Install Visual Studio Code
@@ -75,10 +75,13 @@ docs/linux/
 ├── 00_linux_path.md
 ├── 01_open_terminal.md
 ├── 02_basic_shell_commands.md
-└── 03_create_projects_folder.md
+├── 03_create_projects_folder.md
+├── 04_install_git.md
+├── 05_configure_git.md
+└── 06_create_local_git_repository.md
 ```
 
-Later pages will add Git, GitHub, VS Code, `uv`, and the first Python project workflow.
+Later pages will add GitHub, VS Code, `uv`, and the first Python project workflow.
 
 ## Why start with Ubuntu and Debian?
 
