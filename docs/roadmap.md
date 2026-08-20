@@ -294,6 +294,7 @@ Scope:
 - projects folder setup,
 - Git installation and configuration,
 - local Git repository practice,
+- first GitHub repository and push,
 - VS Code installation,
 - `uv` installation,
 - first project workflow.

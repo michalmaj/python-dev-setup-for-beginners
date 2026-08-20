@@ -140,6 +140,12 @@ GitHub is a website where Git repositories can be stored online.
 
 Git works on your computer. GitHub stores a copy online.
 
+## 2FA
+
+2FA means two-factor authentication.
+
+It adds an extra security step when signing in.
+
 ## Commit
 
 A commit is a saved point in your project history.
@@ -161,6 +167,32 @@ git add main.py
 A remote is a connection between your local Git repository and an online repository.
 
 In this guide, the remote usually points to GitHub.
+
+## origin
+
+`origin` is the common name for the main remote repository.
+
+In this guide, `origin` usually points to your GitHub repository.
+
+## HTTPS URL
+
+An HTTPS URL is a web address that Git can use to connect to GitHub.
+
+Example:
+
+```text
+https://github.com/YOUR-USERNAME/github-practice.git
+```
+
+## Upstream branch
+
+An upstream branch is the remote branch that your local branch pushes to by default.
+
+In this guide, this command sets it:
+
+```bash
+git push -u origin main
+```
 
 ## Push
 

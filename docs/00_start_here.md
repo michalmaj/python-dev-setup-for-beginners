@@ -140,11 +140,14 @@ Available now:
 4. Install Git
 5. Configure Git
 6. Create a local Git repository
+7. Create a GitHub account
+8. Create a repository on GitHub
+9. Connect Git with GitHub
 
 Planned next:
 
-1. Create a GitHub account
-2. Continue through GitHub, VS Code, `uv`, and the first Python project
+1. Install Visual Studio Code
+2. Continue through VS Code, `uv`, and the first Python project
 
 The full Linux path will cover:
 
