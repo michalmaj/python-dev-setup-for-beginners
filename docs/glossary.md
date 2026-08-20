@@ -26,6 +26,16 @@ A shell is the program that understands terminal commands.
 
 PowerShell is a shell.
 
+Bash is also a shell.
+
+It is common on Linux.
+
+## Bash
+
+Bash is a common Linux shell.
+
+In this guide, Linux terminal examples use Bash-style commands.
+
 ## Folder
 
 A folder is a place that contains files or other folders.
@@ -40,6 +50,36 @@ Example:
 
 ```text
 C:\Users\YourName\Documents\Projects
+```
+
+Example on Linux:
+
+```text
+/home/yourname/Projects
+```
+
+## Home folder
+
+Your home folder is the main folder for your user account.
+
+On Linux, it usually looks like:
+
+```text
+/home/yourname
+```
+
+The `~` symbol is a shortcut for your home folder.
+
+## Case-sensitive
+
+Case-sensitive means that uppercase and lowercase letters are treated as different.
+
+On Linux, these can be three different folder names:
+
+```text
+Projects
+projects
+PROJECTS
 ```
 
 ## Project

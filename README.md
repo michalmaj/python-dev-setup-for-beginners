@@ -34,11 +34,12 @@ Available now:
 - files, folders, and paths,
 - basic terminal commands,
 - complete first Windows path through a Python project created with `uv`,
-- Windows completion checklist and troubleshooting.
+- Windows completion checklist and troubleshooting,
+- Linux path foundation.
 
 Planned next:
 
-- Linux path,
+- continue Linux path,
 - macOS path.
 
 ## Roadmap
@@ -57,7 +58,7 @@ This repository follows beginner-first documentation rules:
 ## Learning paths
 
 - Windows path: complete first version
-- Linux path: planned
+- Linux path: in progress
 - macOS path: planned
 
 ## Related project

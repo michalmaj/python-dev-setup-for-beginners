@@ -283,13 +283,15 @@ Scope:
 
 ### Milestone 6: Linux setup path
 
-Status: Planned
+Status: In progress
 
 Goal: add the Linux version of the setup guide.
 
 Scope:
 
 - Ubuntu/Debian-focused setup,
+- terminal and shell basics,
+- projects folder setup,
 - Git installation,
 - VS Code installation,
 - `uv` installation,
