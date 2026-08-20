@@ -209,4 +209,4 @@ For project work, this will become your main terminal.
 
 Next, install `uv`.
 
-The `uv` installation page is planned, but not written yet.
+- [Install uv](14_install_uv.md)

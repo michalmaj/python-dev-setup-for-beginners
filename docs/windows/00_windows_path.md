@@ -83,18 +83,13 @@ docs/windows/
 ├── 10_connect_git_with_github.md
 ├── 11_install_vscode.md
 ├── 12_open_project_in_vscode.md
-└── 13_open_vscode_terminal.md
-```
-
-Planned next:
-
-```text
-docs/windows/
+├── 13_open_vscode_terminal.md
 ├── 14_install_uv.md
-└── 15_create_first_uv_project.md
+├── 15_create_first_uv_project.md
+└── 16_make_first_project_commit.md
 ```
 
-The next planned step is installing `uv` and creating the first Python project.
+This is the first complete Windows path. Later pages may add troubleshooting, screenshots, and deeper Git or Python workflow details.
 
 ## Why Windows first?
 
