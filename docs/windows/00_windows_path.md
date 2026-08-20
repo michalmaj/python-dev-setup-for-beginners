@@ -61,10 +61,12 @@ Follow the Windows path in this order:
 14. Run the project
 15. Make the first commit
 16. Push the project to GitHub
+17. Check your completed setup
+18. Troubleshoot common problems
 
 ## Current status
 
-The Windows path is in progress.
+The Windows path has a complete first version.
 
 Available now:
 
@@ -86,10 +88,12 @@ docs/windows/
 ├── 13_open_vscode_terminal.md
 ├── 14_install_uv.md
 ├── 15_create_first_uv_project.md
-└── 16_make_first_project_commit.md
+├── 16_make_first_project_commit.md
+├── 17_windows_completion_checklist.md
+└── 18_windows_troubleshooting.md
 ```
 
-This is the first complete Windows path. Later pages may add troubleshooting, screenshots, and deeper Git or Python workflow details.
+This is the first complete Windows path. Later pages may add screenshots and deeper Git or Python workflow details.
 
 ## Why Windows first?
 
