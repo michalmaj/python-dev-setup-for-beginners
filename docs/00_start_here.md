@@ -84,6 +84,10 @@ The writing rules are described here:
 
 - [Documentation Conventions](conventions.md)
 
+If a term feels unfamiliar, use the glossary:
+
+- [Glossary](glossary.md)
+
 ## Learning paths
 
 ### Windows path

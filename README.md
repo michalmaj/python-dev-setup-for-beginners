@@ -52,6 +52,7 @@ The planned structure and development order are described here:
 This repository follows beginner-first documentation rules:
 
 - [Documentation Conventions](docs/conventions.md)
+- [Glossary](docs/glossary.md)
 
 ## Learning paths
 
