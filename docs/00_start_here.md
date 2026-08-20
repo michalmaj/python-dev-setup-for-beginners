@@ -128,9 +128,23 @@ Planned next:
 
 Recommended for people using Ubuntu, Debian, or similar Linux distributions.
 
-This path is planned, but not written yet.
+Start here:
 
-It will cover:
+- [Linux Path](linux/00_linux_path.md)
+
+Available now:
+
+1. Open the terminal
+2. Learn basic shell commands
+3. Create a projects folder
+
+Planned next:
+
+1. Install Git
+2. Configure Git
+3. Continue through GitHub, VS Code, `uv`, and the first Python project
+
+The full Linux path will cover:
 
 - open the terminal,
 - use basic shell commands,
