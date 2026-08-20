@@ -84,6 +84,10 @@ The writing rules are described here:
 
 - [Documentation Conventions](conventions.md)
 
+If a term feels unfamiliar, use the glossary:
+
+- [Glossary](glossary.md)
+
 ## Learning paths
 
 ### Windows path
@@ -112,12 +116,13 @@ Available now:
 14. Install `uv`
 15. Create your first Python project
 16. Make the first project commit
+17. Check your completed Windows setup
+18. Troubleshoot common Windows setup problems
 
 Planned next:
 
-1. Troubleshooting and polish
-2. Linux path
-3. macOS path
+1. Linux path
+2. macOS path
 
 ### Linux path
 

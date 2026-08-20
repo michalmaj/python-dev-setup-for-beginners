@@ -33,11 +33,11 @@ Available now:
 - terminal basics,
 - files, folders, and paths,
 - basic terminal commands,
-- complete first Windows path through a Python project created with `uv`.
+- complete first Windows path through a Python project created with `uv`,
+- Windows completion checklist and troubleshooting.
 
 Planned next:
 
-- troubleshooting and polish,
 - Linux path,
 - macOS path.
 
@@ -52,10 +52,11 @@ The planned structure and development order are described here:
 This repository follows beginner-first documentation rules:
 
 - [Documentation Conventions](docs/conventions.md)
+- [Glossary](docs/glossary.md)
 
 ## Learning paths
 
-- Windows path: in progress
+- Windows path: complete first version
 - Linux path: planned
 - macOS path: planned
 

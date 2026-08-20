@@ -312,16 +312,16 @@ Scope:
 
 ### Milestone 8: Troubleshooting and polish
 
-Status: Planned
+Status: In progress
 
 Goal: improve beginner experience.
 
 Scope:
 
-- common errors,
+- common Windows errors,
 - screenshots,
 - glossary,
-- checklists,
+- Windows completion checklist,
 - verification steps,
 - links between related sections.
 

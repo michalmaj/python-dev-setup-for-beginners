@@ -249,4 +249,6 @@ git push when a remote exists
 
 You now have a working first Python project.
 
-Next, this guide will continue toward a more complete Python development workflow.
+Next, check that your Windows setup is complete:
+
+- [Windows Completion Checklist](17_windows_completion_checklist.md)
