@@ -76,23 +76,25 @@ docs/windows/
 ├── 03_create_projects_folder.md
 ├── 04_install_chocolatey.md
 ├── 05_install_git.md
-└── 06_configure_git.md
+├── 06_configure_git.md
+├── 07_create_github_account.md
+├── 08_create_local_git_repository.md
+├── 09_create_github_repository.md
+└── 10_connect_git_with_github.md
 ```
 
 Planned next:
 
 ```text
 docs/windows/
-├── 07_create_github_account.md
-├── 08_connect_git_with_github.md
-├── 09_install_vscode.md
-├── 10_open_project_in_vscode.md
-├── 11_open_vscode_terminal.md
-├── 12_install_uv.md
-└── 13_create_first_uv_project.md
+├── 11_install_vscode.md
+├── 12_open_project_in_vscode.md
+├── 13_open_vscode_terminal.md
+├── 14_install_uv.md
+└── 15_create_first_uv_project.md
 ```
 
-GitHub-related topics may also link to a shared Git and GitHub section when it is added.
+The first GitHub flow uses a small practice repository before the guide moves on to VS Code and `uv`.
 
 ## Why Windows first?
 

@@ -226,6 +226,6 @@ git config --global init.defaultBranch main
 
 ## Next step
 
-Next, learn how GitHub fits into the workflow.
+Next, create a GitHub account:
 
-The GitHub account page is planned, but not written yet.
+- [Create a GitHub Account](07_create_github_account.md)

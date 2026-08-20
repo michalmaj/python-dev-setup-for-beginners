@@ -241,13 +241,17 @@ Scope:
 - add a guide to installing Chocolatey,
 - add a guide to installing Git,
 - add a guide to configuring Git,
+- add a guide to creating a GitHub account,
+- add a guide to creating a local Git repository,
+- add a guide to creating an empty GitHub repository,
+- add a guide to pushing the first commit to GitHub,
 - install VS Code,
 - install `uv`,
 - create the first project.
 
 ### Milestone 4: Git and GitHub workflow
 
-Status: Planned
+Status: Done
 
 Goal: teach the first full GitHub workflow.
 
