@@ -35,11 +35,11 @@ Available now:
 - basic terminal commands,
 - complete first Windows path through a Python project created with `uv`,
 - Windows completion checklist and troubleshooting,
-- complete first Linux path through a Python project created with `uv`.
+- complete first Linux path through a Python project created with `uv`,
+- Linux completion checklist and troubleshooting.
 
 Planned next:
 
-- Linux troubleshooting and polish,
 - macOS path.
 
 ## Roadmap

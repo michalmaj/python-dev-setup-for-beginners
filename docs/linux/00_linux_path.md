@@ -63,10 +63,12 @@ Follow the Linux path in this order:
 15. Run the project
 16. Make the first commit
 17. Push the project to GitHub
+18. Check your completed setup
+19. Troubleshoot common problems
 
 ## Current status
 
-The Linux path is in progress.
+The Linux path has a complete first version.
 
 Available now:
 
@@ -87,10 +89,12 @@ docs/linux/
 ├── 12_open_vscode_terminal.md
 ├── 13_install_uv.md
 ├── 14_create_first_uv_project.md
-└── 15_make_first_project_commit.md
+├── 15_make_first_project_commit.md
+├── 16_linux_completion_checklist.md
+└── 17_linux_troubleshooting.md
 ```
 
-This is the first complete Linux path. Later pages may add troubleshooting, screenshots, and deeper Git or Python workflow details.
+This is the first complete Linux path. Later pages may add screenshots and deeper Git or Python workflow details.
 
 ## Why start with Ubuntu and Debian?
 

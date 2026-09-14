@@ -257,4 +257,6 @@ git push when a remote exists
 
 You now have a working first Python project on Linux.
 
-Next, this guide will add a completion checklist and troubleshooting for the Linux path.
+Next, check that your Linux setup is complete:
+
+- [Linux Completion Checklist](16_linux_completion_checklist.md)
