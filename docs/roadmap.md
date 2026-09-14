@@ -323,9 +323,11 @@ Goal: improve beginner experience.
 Scope:
 
 - common Windows errors,
+- common Linux errors,
 - screenshots,
 - glossary,
 - Windows completion checklist,
+- Linux completion checklist,
 - verification steps,
 - links between related sections.
 

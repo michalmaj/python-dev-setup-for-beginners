@@ -149,11 +149,12 @@ Available now:
 13. Install `uv`
 14. Create your first Python project
 15. Make the first project commit
+16. Check your completed Linux setup
+17. Troubleshoot common Linux setup problems
 
 Planned next:
 
-1. Linux troubleshooting and polish
-2. macOS path
+1. macOS path
 
 The full Linux path will cover:
 
