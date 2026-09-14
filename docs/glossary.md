@@ -14,6 +14,18 @@ Example:
 git status
 ```
 
+## curl
+
+`curl` is a command-line tool that can download data from a web address.
+
+In this guide, it is used to download the official `uv` installer.
+
+## Installer script
+
+An installer script is a script that installs a tool on your computer.
+
+Only run installer scripts from official sources you trust.
+
 ## Package manager
 
 A package manager installs, updates, and removes software.
@@ -128,6 +140,24 @@ A project is a folder that contains the files for one piece of work.
 
 In this guide, `my-first-python-project` is a project.
 
+## pyproject.toml
+
+`pyproject.toml` is a Python project configuration file.
+
+Tools such as `uv` use it to understand your project.
+
+## src folder
+
+The `src` folder is a common place to put Python project code.
+
+Recent `uv` application projects use a `src` layout by default.
+
+## Entry point
+
+An entry point is a command that runs code from your project.
+
+In this guide, `uv run my-first-python-project` runs the first project entry point.
+
 ## Repository
 
 A repository is a project folder that Git tracks.
@@ -164,8 +194,8 @@ To stage a file means to tell Git that this file should go into the next commit.
 
 Example:
 
-```powershell
-git add main.py
+```bash
+git add README.md
 ```
 
 ## Remote
@@ -234,7 +264,13 @@ Be more careful with folders downloaded from unknown sources.
 
 `uv` is a tool for creating and running Python projects.
 
-This guide uses it to create the first Python project and run `main.py`.
+This guide uses it to create the first Python project and run that project.
+
+## uv.lock
+
+`uv.lock` records the exact dependency versions for a `uv` project.
+
+It can be created or updated when you run a project.
 
 ## Virtual environment
 
