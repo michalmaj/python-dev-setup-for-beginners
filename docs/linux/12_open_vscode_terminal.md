@@ -205,4 +205,6 @@ For project work, this will become your main terminal.
 
 ## Next step
 
-Next, this guide will continue with installing `uv` on Linux.
+Next, install `uv`:
+
+- [Install uv](13_install_uv.md)

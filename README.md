@@ -35,11 +35,11 @@ Available now:
 - basic terminal commands,
 - complete first Windows path through a Python project created with `uv`,
 - Windows completion checklist and troubleshooting,
-- Linux path foundation through the VS Code terminal.
+- complete first Linux path through a Python project created with `uv`.
 
 Planned next:
 
-- continue Linux path,
+- Linux troubleshooting and polish,
 - macOS path.
 
 ## Roadmap
@@ -58,7 +58,7 @@ This repository follows beginner-first documentation rules:
 ## Learning paths
 
 - Windows path: complete first version
-- Linux path: in progress
+- Linux path: complete first version
 - macOS path: planned
 
 ## Related project

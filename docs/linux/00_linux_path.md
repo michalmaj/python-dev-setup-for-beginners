@@ -84,10 +84,13 @@ docs/linux/
 ├── 09_connect_git_with_github.md
 ├── 10_install_vscode.md
 ├── 11_open_project_in_vscode.md
-└── 12_open_vscode_terminal.md
+├── 12_open_vscode_terminal.md
+├── 13_install_uv.md
+├── 14_create_first_uv_project.md
+└── 15_make_first_project_commit.md
 ```
 
-Later pages will add `uv` and the first Python project workflow.
+This is the first complete Linux path. Later pages may add troubleshooting, screenshots, and deeper Git or Python workflow details.
 
 ## Why start with Ubuntu and Debian?
 
