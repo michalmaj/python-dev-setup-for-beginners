@@ -14,6 +14,34 @@ Example:
 git status
 ```
 
+## command not found
+
+`command not found` means the terminal does not recognize the command you typed.
+
+Usually the tool is not installed, the command is misspelled, or the terminal needs to be reopened.
+
+## Current folder
+
+The current folder is the folder where your terminal is working right now.
+
+On Linux, you can check it with:
+
+```bash
+pwd
+```
+
+On Windows PowerShell, you can check it with:
+
+```powershell
+Get-Location
+```
+
+## Exact error message
+
+The exact error message is the full text printed by the terminal when something fails.
+
+It is usually more useful than a general description like "it does not work".
+
 ## curl
 
 `curl` is a command-line tool that can download data from a web address.
