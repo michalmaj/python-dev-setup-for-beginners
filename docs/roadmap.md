@@ -283,7 +283,7 @@ Scope:
 
 ### Milestone 6: Linux setup path
 
-Status: In progress
+Status: Done
 
 Goal: add the Linux version of the setup guide.
 
