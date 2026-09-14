@@ -240,4 +240,6 @@ git push -u origin main
 
 ## Next step
 
-Next, this guide will continue with installing Visual Studio Code on Linux.
+Next, install Visual Studio Code:
+
+- [Install Visual Studio Code](10_install_vscode.md)
