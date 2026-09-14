@@ -20,6 +20,12 @@ A package manager installs, updates, and removes software.
 
 On Ubuntu and Debian, this guide uses `apt`.
 
+## .deb package
+
+A `.deb` package is an installer file used by Debian, Ubuntu, and similar Linux distributions.
+
+In this guide, Visual Studio Code is installed from an official `.deb` package.
+
 ## apt
 
 `apt` is a command-line package manager used by Ubuntu, Debian, and similar Linux distributions.
@@ -209,6 +215,20 @@ git push
 Visual Studio Code, or VS Code, is the code editor used in this guide.
 
 It lets you edit files, open folders, and use an integrated terminal.
+
+## Integrated terminal
+
+An integrated terminal is a terminal panel inside VS Code.
+
+It lets you run commands without leaving the editor.
+
+## Workspace Trust
+
+Workspace Trust is a VS Code feature that asks whether you trust a folder.
+
+Trust folders you created yourself during this guide.
+
+Be more careful with folders downloaded from unknown sources.
 
 ## uv
 
