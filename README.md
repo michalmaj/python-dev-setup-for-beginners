@@ -16,13 +16,14 @@ This repository is for people who are new to programming tools and want to learn
 
 ## Status
 
-The first complete Windows, Linux, and macOS learning paths are available. The repository is now in an active review and polish phase.
+The first complete Windows, Linux, and macOS learning paths are available. Classroom preflight, completion evidence, and pilot materials are ready for supervised testing.
 
 ## Start here
 
 If you are completely new to developer tools, start with:
 
 - [Start Here](docs/00_start_here.md)
+- [Check Your Computer Before You Start](docs/00_before_you_start.md)
 
 This guide intentionally starts before Python itself. It first explains terminals, folders, command-line basics, Git, GitHub, VS Code, and only then moves to creating a Python project with `uv`.
 
@@ -38,7 +39,8 @@ Available now:
 - complete first Linux path through a Python project created with `uv`,
 - Linux completion checklist and troubleshooting,
 - complete first macOS path through a Python project created with `uv`,
-- macOS completion checklist and troubleshooting.
+- macOS completion checklist and troubleshooting,
+- shared classroom preflight and student completion evidence.
 
 Possible next improvements:
 
@@ -58,6 +60,12 @@ This repository follows beginner-first documentation rules:
 
 - [Documentation Conventions](docs/conventions.md)
 - [Glossary](docs/glossary.md)
+
+## Classroom use
+
+- [Check Your Computer Before You Start](docs/00_before_you_start.md)
+- [Student Completion Evidence](docs/05_student_completion_evidence.md)
+- [Classroom Pilot Checklist](docs/instructors/00_pilot_checklist.md)
 
 ## Learning paths
 

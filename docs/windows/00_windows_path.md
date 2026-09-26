@@ -1,6 +1,8 @@
 # Windows Path
 
-This learning path is for people using Windows 10 or Windows 11.
+This learning path is designed for people using Windows 11.
+
+Most steps may still work on Windows 10, but Microsoft support ended on October 14, 2025. Windows 11 is the recommended classroom baseline.
 
 It explains how to set up a beginner-friendly Python development environment on Windows step by step.
 
@@ -22,6 +24,7 @@ The goal is to start from zero and reach the point where you can:
 
 Before following the Windows path, you should read:
 
+- [Before You Start](../00_before_you_start.md)
 - [What Is a Terminal?](../01_what_is_a_terminal.md)
 - [Files, Folders, and Paths](../02_files_folders_and_paths.md)
 - [Basic Terminal Commands](../03_basic_terminal_commands.md)
@@ -32,7 +35,7 @@ These sections explain the basic ideas used throughout this path.
 
 You need:
 
-- a computer with Windows 10 or Windows 11,
+- a 64-bit computer with Windows 11,
 - access to your user account,
 - an internet connection,
 - permission to install applications.

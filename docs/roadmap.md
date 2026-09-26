@@ -355,6 +355,21 @@ Still planned:
 - accessibility review,
 - optional external-link validation.
 
+### Milestone 9: Classroom readiness
+
+Status: Done
+
+Goal: prepare the guide for a supervised student pilot.
+
+Scope:
+
+- supported-system preflight,
+- managed-computer and privacy warnings,
+- shared student completion evidence,
+- instructor pilot and acceptance checklist,
+- structured setup problem reports,
+- automated syntax checks for repository YAML files.
+
 ## Out of scope for now
 
 The first version of this repository will not focus on:

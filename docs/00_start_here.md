@@ -46,10 +46,11 @@ This repository is organized into several learning paths.
 
 Start with the basic concepts:
 
-1. [What Is a Terminal?](01_what_is_a_terminal.md)
-2. [Files, Folders, and Paths](02_files_folders_and_paths.md)
-3. [Basic Terminal Commands](03_basic_terminal_commands.md)
-4. [What Are Git and GitHub?](04_what_are_git_and_github.md)
+1. [Check Your Computer Before You Start](00_before_you_start.md)
+2. [What Is a Terminal?](01_what_is_a_terminal.md)
+3. [Files, Folders, and Paths](02_files_folders_and_paths.md)
+4. [Basic Terminal Commands](03_basic_terminal_commands.md)
+5. [What Are Git and GitHub?](04_what_are_git_and_github.md)
 
 Then continue with the path for your operating system.
 
@@ -60,6 +61,10 @@ Available now:
 3. [macOS](macos/00_macos_path.md)
 
 Each operating system path then covers Git, GitHub, Visual Studio Code, `uv`, the first project, and troubleshooting in one continuous sequence.
+
+After completing your path, prepare the results requested by your instructor:
+
+- [Student Completion Evidence](05_student_completion_evidence.md)
 
 ## Project roadmap
 
@@ -83,7 +88,9 @@ If a term feels unfamiliar, use the glossary:
 
 ### Windows path
 
-Recommended for people using Windows 10 or Windows 11.
+Recommended for people using Windows 11.
+
+Windows 10 may still run the tools, but Microsoft support ended on October 14, 2025. Check [Before You Start](00_before_you_start.md) before using it for a class.
 
 Start here:
 

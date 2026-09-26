@@ -91,6 +91,12 @@ Git may say everything is already up to date. That is a successful result.
 
 Open the repository in your browser and confirm that the latest commit and project files are visible.
 
+## Classroom completion evidence
+
+If you are following this guide as part of a course, prepare the shared hand-in results:
+
+- [Student Completion Evidence](../05_student_completion_evidence.md)
+
 ## Workflow check
 
 Your setup is ready when you can repeat this loop:

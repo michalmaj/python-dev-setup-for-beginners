@@ -5,14 +5,14 @@ on:
     paths:
       - "**/*.md"
       - "scripts/check_markdown_links.rb"
-      - ".github/workflows/docs-checks.yml"
+      - ".github/**/*.yml"
   push:
     branches:
       - main
     paths:
       - "**/*.md"
       - "scripts/check_markdown_links.rb"
-      - ".github/workflows/docs-checks.yml"
+      - ".github/**/*.yml"
 
 permissions:
   contents: read
@@ -28,3 +28,7 @@ jobs:
 
       - name: Check local links and headings
         run: ruby scripts/check_markdown_links.rb
+
+      - name: Check YAML syntax
+        run: |
+          ruby -e 'require "yaml"; Dir[".github/**/*.yml"].sort.each { |file| YAML.parse_file(file); puts "Valid YAML: #{file}" }'

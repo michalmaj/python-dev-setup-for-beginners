@@ -1,0 +1,115 @@
+name: Setup problem
+description: Report a reproducible problem while following the setup guide.
+title: "[Setup]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a setup problem. Issues in this public repository can be visible to everyone. Do not include passwords, access tokens, 2FA codes, recovery codes, or unrelated personal information.
+
+  - type: dropdown
+    id: operating-system
+    attributes:
+      label: Operating system path
+      description: Which learning path are you following?
+      options:
+        - Windows 11
+        - Windows 10
+        - Ubuntu or Debian
+        - Other Linux distribution
+        - macOS on Apple Silicon
+        - macOS on Intel
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: interface-language
+    attributes:
+      label: Interface language
+      description: Menu and button names may differ from the English guide.
+      placeholder: "Example: English or Polish"
+    validations:
+      required: false
+
+  - type: input
+    id: operating-system-version
+    attributes:
+      label: Operating system version
+      description: Enter the exact version if you can find it.
+      placeholder: "Example: Windows 11 24H2, Ubuntu 24.04, or macOS 15.6"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: computer-management
+    attributes:
+      label: Computer ownership
+      description: Managed computers may block installation or authentication steps.
+      options:
+        - Personal computer
+        - School or work managed computer
+        - Not sure
+    validations:
+      required: true
+
+  - type: input
+    id: guide-location
+    attributes:
+      label: Guide page and section
+      description: Provide the page path and nearest heading.
+      placeholder: "Example: docs/windows/14_install_uv.md, Step 2"
+    validations:
+      required: true
+
+  - type: textarea
+    id: action
+    attributes:
+      label: Command or action
+      description: What exact command or interface action did you perform?
+      placeholder: Paste the command or describe the buttons and menus you selected.
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected-result
+    attributes:
+      label: Expected result
+      description: What did the guide say should happen?
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual-result
+    attributes:
+      label: Actual result and exact error
+      description: Paste the complete error message. Remove private information first.
+    validations:
+      required: true
+
+  - type: textarea
+    id: diagnostics
+    attributes:
+      label: Diagnostic output
+      description: Include relevant output such as pwd or Get-Location, git status, and tool version commands. Remove private information first.
+      render: shell
+    validations:
+      required: false
+
+  - type: textarea
+    id: attempts
+    attributes:
+      label: What have you already tried?
+      description: Mention the troubleshooting section you used and what changed.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: Safety and troubleshooting checks
+      options:
+        - label: I checked the troubleshooting page for my operating system.
+          required: true
+        - label: I removed passwords, tokens, 2FA codes, recovery codes, and unrelated personal information.
+          required: true

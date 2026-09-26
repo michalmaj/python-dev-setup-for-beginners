@@ -138,6 +138,12 @@ If Git says everything is already up to date, that is fine.
 
 Open the repository in your browser and confirm that the project files and latest commit are visible.
 
+## Classroom completion evidence
+
+If you are following this guide as part of a course, prepare the shared hand-in results:
+
+- [Student Completion Evidence](../05_student_completion_evidence.md)
+
 ## If something fails
 
 Do not restart the whole guide.
