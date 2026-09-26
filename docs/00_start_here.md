@@ -110,6 +110,9 @@ Available now:
 11. Install Visual Studio Code
 12. Open a project folder in VS Code
 13. Open the VS Code terminal
+11. Install Visual Studio Code
+12. Open a project folder in VS Code
+13. Open the VS Code terminal
 14. Install `uv`
 15. Create your first Python project
 16. Make the first project commit
@@ -167,10 +170,9 @@ Available now:
 
 Planned next:
 
-1. Install and use Visual Studio Code
-2. Install `uv` and create the first Python project
-3. Check the completed macOS setup
-4. Troubleshoot common macOS setup problems
+1. Install `uv` and create the first Python project
+2. Check the completed macOS setup
+3. Troubleshoot common macOS setup problems
 
 ## Important idea
 
