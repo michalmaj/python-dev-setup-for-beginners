@@ -16,7 +16,7 @@ This repository is for people who are new to programming tools and want to learn
 
 ## Status
 
-This repository is under active development.
+The first complete Windows, Linux, and macOS learning paths are available. The repository is now in an active review and polish phase.
 
 ## Start here
 
@@ -43,7 +43,8 @@ Available now:
 Possible next improvements:
 
 - screenshots for the most visual setup steps,
-- a cross-platform consistency and accessibility review.
+- an accessibility review,
+- additional checks for external links.
 
 ## Roadmap
 
@@ -60,9 +61,9 @@ This repository follows beginner-first documentation rules:
 
 ## Learning paths
 
-- Windows path: complete first version
-- Linux path: complete first version
-- macOS path: complete first version
+- [Windows path](docs/windows/00_windows_path.md): complete first version
+- [Linux path](docs/linux/00_linux_path.md): complete first version
+- [macOS path](docs/macos/00_macos_path.md): complete first version
 
 ## Related project
 

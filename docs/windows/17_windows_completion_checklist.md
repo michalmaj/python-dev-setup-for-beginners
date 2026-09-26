@@ -15,7 +15,7 @@ By this point, you should have:
 - Visual Studio Code installed,
 - `uv` installed,
 - one small Git practice repository,
-- one first Python project created with `uv`.
+- one first Python project created with `uv` and published to GitHub.
 
 ## Tool checks
 
@@ -88,7 +88,7 @@ cd $HOME\Documents\Projects\my-first-python-project
 Run:
 
 ```powershell
-uv run main.py
+uv run my-first-python-project
 ```
 
 Expected result:
@@ -113,7 +113,7 @@ If Git shows changed files, either commit them or check whether you forgot to sa
 
 ## GitHub checks
 
-If your project is connected to GitHub, run:
+Run:
 
 ```powershell
 git remote -v
@@ -128,13 +128,15 @@ origin  https://github.com/YOUR-USERNAME/my-first-python-project.git (fetch)
 origin  https://github.com/YOUR-USERNAME/my-first-python-project.git (push)
 ```
 
-Then run:
+Then check the connection:
 
 ```powershell
 git push
 ```
 
 If Git says everything is already up to date, that is fine.
+
+Open the repository in your browser and confirm that the project files and latest commit are visible.
 
 ## If something fails
 

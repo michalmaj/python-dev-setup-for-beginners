@@ -51,16 +51,16 @@ Follow the Windows path in this order:
 4. Install Chocolatey
 5. Install Git
 6. Configure Git
-7. Create a GitHub account
-8. Connect Git with GitHub
-9. Install Visual Studio Code
-10. Open a folder in VS Code
-11. Open the VS Code terminal
-12. Install `uv`
-13. Create the first Python project
-14. Run the project
-15. Make the first commit
-16. Push the project to GitHub
+7. Create a local Git repository
+8. Create a GitHub account
+9. Create a repository on GitHub
+10. Connect Git with GitHub
+11. Install Visual Studio Code
+12. Open a project in VS Code
+13. Open the VS Code terminal
+14. Install `uv`
+15. Create the first Python project
+16. Commit and publish the first project
 17. Check your completed setup
 18. Troubleshoot common problems
 
@@ -79,8 +79,8 @@ docs/windows/
 ├── 04_install_chocolatey.md
 ├── 05_install_git.md
 ├── 06_configure_git.md
-├── 07_create_github_account.md
-├── 08_create_local_git_repository.md
+├── 07_create_local_git_repository.md
+├── 08_create_github_account.md
 ├── 09_create_github_repository.md
 ├── 10_connect_git_with_github.md
 ├── 11_install_vscode.md
@@ -88,7 +88,7 @@ docs/windows/
 ├── 13_open_vscode_terminal.md
 ├── 14_install_uv.md
 ├── 15_create_first_uv_project.md
-├── 16_make_first_project_commit.md
+├── 16_commit_and_publish_first_project.md
 ├── 17_windows_completion_checklist.md
 └── 18_windows_troubleshooting.md
 ```

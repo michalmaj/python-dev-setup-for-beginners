@@ -1,60 +1,38 @@
 # Create the First Python Project
 
-Now you are ready to create your first Python project with `uv`.
-
-This project will be small, but it will use the same basic workflow as larger Python projects.
+You are ready to create and run a small Python application with `uv`.
 
 ## What you will learn
 
-In this section, you will learn how to:
+You will learn how to:
 
-- create a Python project with `uv init`,
-- open the project in VS Code,
-- inspect the generated files,
-- run the project with `uv run`,
-- understand the first project structure.
+- create a packaged Python application,
+- inspect its generated files,
+- open it in VS Code,
+- run it through its project command,
+- recognize the environment created by `uv`.
 
 ## Before you start
 
-You should already have:
+You should have a working Projects folder, Visual Studio Code, and `uv` installed.
 
-- `uv` installed,
-- Visual Studio Code installed,
-- a `Projects` folder.
+Check `uv` in PowerShell:
 
-If not, read these sections first:
+```powershell
+uv --version
+```
 
-- [Install uv](14_install_uv.md)
-- [Install Visual Studio Code](11_install_vscode.md)
-- [Create a Projects Folder](03_create_projects_folder.md)
+## Step 1: Go to Projects
 
-## Step 1: Open PowerShell
-
-Open a normal PowerShell window.
-
-You can also use the VS Code terminal if it is already open.
-
-## Step 2: Move to your Projects folder
-
-Run:
+Run this command in PowerShell:
 
 ```powershell
 cd $HOME\Documents\Projects
 ```
 
-Check where you are:
+Check the location with `Get-Location`. The path should end with `Documents\Projects`.
 
-```powershell
-Get-Location
-```
-
-Your path should end with:
-
-```text
-Documents\Projects
-```
-
-## Step 3: Create the project
+## Step 2: Create the project
 
 Run:
 
@@ -62,50 +40,42 @@ Run:
 uv init my-first-python-project
 ```
 
-This creates a new folder named `my-first-python-project`.
+This creates a new application folder and initializes a Git repository inside it.
 
-Inside that folder, `uv` creates the starting files for a Python project.
-
-## Step 4: Move into the project folder
-
-Run:
+Move into the project:
 
 ```powershell
 cd my-first-python-project
 ```
 
-Check where you are:
-
-```powershell
-Get-Location
-```
-
-Your path should end with:
-
-```text
-my-first-python-project
-```
-
-## Step 5: List the project files
+## Step 3: Inspect the generated files
 
 Run:
 
 ```powershell
-Get-ChildItem
+Get-ChildItem -Force
 ```
 
-You should see files such as:
+You should see items similar to:
 
 ```text
+.git
+.gitignore
 .python-version
 README.md
-main.py
 pyproject.toml
+src
 ```
 
-You may also see a `.git` folder if hidden files are visible.
+List the Python package folder:
 
-## Step 6: Open the project in VS Code
+```powershell
+Get-ChildItem src
+```
+
+Its name should look like `my_first_python_project`. Hyphens in the project name become underscores in the Python package name.
+
+## Step 4: Open the project in VS Code
 
 Run:
 
@@ -113,39 +83,14 @@ Run:
 code .
 ```
 
-This opens the current project folder in Visual Studio Code.
+The Explorer should show `pyproject.toml`, `README.md`, and the `src` folder.
 
-If VS Code asks whether you trust the folder, you can trust it because you created it yourself.
+## Step 5: Run the application
 
-## Step 7: Open main.py
-
-In VS Code, open `main.py`.
-
-You should see a small Python program.
-
-It may look similar to:
-
-```python
-def main():
-    print("Hello from my-first-python-project!")
-
-
-if __name__ == "__main__":
-    main()
-```
-
-The exact text may be different depending on your `uv` version.
-
-## Step 8: Run the project
-
-Open the VS Code terminal.
-
-Make sure the terminal is inside `my-first-python-project`.
-
-Then run:
+Open the VS Code terminal and run:
 
 ```powershell
-uv run main.py
+uv run my-first-python-project
 ```
 
 Expected result:
@@ -154,102 +99,47 @@ Expected result:
 Hello from my-first-python-project!
 ```
 
-The exact text may be different.
+The first run may take longer because `uv` may download Python, create `.venv`, and generate `uv.lock`.
 
-The important part is that Python runs and prints a message.
+## Step 6: Understand the important items
 
-## Step 9: Understand what uv created
-
-The project contains a few important files:
-
-| File | Meaning |
+| Item | Purpose |
 | --- | --- |
-| `main.py` | The Python file you ran. |
-| `pyproject.toml` | Project configuration. |
-| `.python-version` | The Python version requested for this project. |
-| `README.md` | A text file that describes the project. |
+| `src/` | Contains the Python source code. |
+| `pyproject.toml` | Describes the project and its dependencies. |
+| `.python-version` | Records the Python version requested by the project. |
+| `.venv/` | Contains the isolated project environment. |
+| `uv.lock` | Records exact dependency versions. |
+| `.gitignore` | Keeps generated files such as `.venv` out of Git. |
 
-You do not need to understand every line yet.
-
-For now, the important idea is:
-
-```text
-uv created a real Python project folder.
-```
+Do not edit `.venv` manually or commit it to Git.
 
 ## Common problems
 
-### PowerShell says uv is not recognized
+### The project folder already exists
 
-Close PowerShell and open it again.
-
-Then run:
-
-```powershell
-uv --version
-```
-
-If it still does not work, return to:
-
-- [Install uv](14_install_uv.md)
-
-### uv says the folder already exists
-
-You may already have a folder named `my-first-python-project`.
-
-Choose a different name:
+Do not overwrite it. Choose another name, such as:
 
 ```powershell
 uv init my-second-python-project
 ```
 
-### VS Code opens the wrong folder
+Remember to use that name in later commands too.
 
-Close VS Code.
+### The first run takes a long time
 
-In PowerShell, move into the project folder:
+Wait for `uv` to download and prepare the required tools. Later runs are usually faster.
 
-```powershell
-cd $HOME\Documents\Projects\my-first-python-project
-```
+### The generated files differ slightly
 
-Then run:
+Project templates can change between `uv` versions. Confirm that you have `pyproject.toml` and that the `uv run` command succeeds.
 
-```powershell
-code .
-```
+### VS Code opened the wrong folder
 
-### uv run takes time the first time
-
-That is normal.
-
-`uv` may need to create an environment or download Python.
-
-Wait until the command finishes.
-
-### The output text is different
-
-That is okay.
-
-Different versions of `uv` may generate slightly different starter text.
-
-The important part is that `uv run main.py` runs without an error.
-
-## Key idea
-
-You created and ran your first Python project with `uv`.
-
-The basic workflow was:
-
-```text
-uv init project-name
-cd project-name
-code .
-uv run main.py
-```
+Run `Get-Location`, move to the project folder, and run `code .` again.
 
 ## Next step
 
-Next, learn how to make a small change and save it with Git.
+Edit the application, commit the complete project, and publish it:
 
-- [Make the First Project Commit](16_make_first_project_commit.md)
+- [Commit and Publish the First Project](16_commit_and_publish_first_project.md)

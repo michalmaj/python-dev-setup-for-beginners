@@ -59,13 +59,7 @@ Available now:
 2. [Linux](linux/00_linux_path.md)
 3. [macOS](macos/00_macos_path.md)
 
-After that, later sections will cover:
-
-1. Git and GitHub
-2. Visual Studio Code
-3. uv and Python projects
-4. First commit and push
-5. Troubleshooting
+Each operating system path then covers Git, GitHub, Visual Studio Code, `uv`, the first project, and troubleshooting in one continuous sequence.
 
 ## Project roadmap
 
@@ -103,19 +97,16 @@ Available now:
 4. Install Chocolatey
 5. Install Git
 6. Configure Git
-7. Create a GitHub account
-8. Create a local Git repository
+7. Create a local Git repository
+8. Create a GitHub account
 9. Create a repository on GitHub
 10. Connect Git with GitHub
 11. Install Visual Studio Code
-12. Open a project folder in VS Code
-13. Open the VS Code terminal
-11. Install Visual Studio Code
-12. Open a project folder in VS Code
+12. Open a project in VS Code
 13. Open the VS Code terminal
 14. Install `uv`
 15. Create your first Python project
-16. Make the first project commit
+16. Commit and publish the first project
 17. Check your completed Windows setup
 18. Troubleshoot common Windows setup problems
 
@@ -139,11 +130,11 @@ Available now:
 8. Create a repository on GitHub
 9. Connect Git with GitHub
 10. Install Visual Studio Code
-11. Open a project folder in VS Code
+11. Open a project in VS Code
 12. Open the VS Code terminal
 13. Install `uv`
 14. Create your first Python project
-15. Make the first project commit
+15. Commit and publish the first project
 16. Check your completed Linux setup
 17. Troubleshoot common Linux setup problems
 
@@ -168,7 +159,7 @@ Available now:
 9. Create a repository on GitHub
 10. Connect Git with GitHub
 11. Install Visual Studio Code
-12. Open a project folder in VS Code
+12. Open a project in VS Code
 13. Open the VS Code terminal
 14. Install `uv`
 15. Create your first Python project

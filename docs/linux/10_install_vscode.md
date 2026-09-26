@@ -1,4 +1,4 @@
-# Install Visual Studio Code
+# Install Visual Studio Code on Linux
 
 Visual Studio Code is a code editor.
 
@@ -209,4 +209,4 @@ code --version
 
 Next, open your practice project in VS Code:
 
-- [Open a Folder in VS Code](11_open_project_in_vscode.md)
+- [Open a Project in VS Code](11_open_project_in_vscode.md)

@@ -94,8 +94,8 @@ code .
 In VS Code, check that the Explorer panel shows files such as:
 
 ```text
-main.py
 pyproject.toml
+src
 ```
 
 ## git status says this is not a Git repository
@@ -164,9 +164,9 @@ Wait for the command to finish.
 
 If it finishes with an error, read the error message and check whether you are in the correct project folder.
 
-## main.py output did not change
+## The project output did not change
 
-Make sure you saved the file.
+Make sure you saved the Python file inside `src`.
 
 In VS Code, press:
 
@@ -177,7 +177,7 @@ Ctrl+S
 Then run:
 
 ```powershell
-uv run main.py
+uv run my-first-python-project
 ```
 
 again.

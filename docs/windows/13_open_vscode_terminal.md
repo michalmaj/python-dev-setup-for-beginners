@@ -19,7 +19,7 @@ You should already have opened the `github-practice` folder in VS Code.
 
 If not, read this section first:
 
-- [Open a Folder in VS Code](12_open_project_in_vscode.md)
+- [Open a Project in VS Code](12_open_project_in_vscode.md)
 
 ## What is the integrated terminal?
 

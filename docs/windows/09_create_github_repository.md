@@ -23,8 +23,8 @@ You should already have:
 
 If not, read these sections first:
 
-- [Create a GitHub Account](07_create_github_account.md)
-- [Create a Local Git Repository](08_create_local_git_repository.md)
+- [Create a GitHub Account](08_create_github_account.md)
+- [Create a Local Git Repository](07_create_local_git_repository.md)
 
 ## Step 1: Open GitHub
 

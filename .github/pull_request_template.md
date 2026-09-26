@@ -9,7 +9,7 @@
 ## Manual Checks
 
 - [ ] I reviewed the changed Markdown as a beginner.
-- [ ] I checked that links point to existing pages or are clearly marked as planned.
+- [ ] I ran `ruby scripts/check_markdown_links.rb`.
 - [ ] I ran `git diff --check`.
 
 ## Notes

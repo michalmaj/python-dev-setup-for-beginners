@@ -1,88 +1,84 @@
 # Glossary
 
-Use this page when you see a word that is still new or confusing.
+Use this page when a word in the guide is still new or confusing. Definitions describe how each term is used in this repository.
 
-The definitions are short on purpose. They explain how each term is used in this guide.
+## Terminal and file system
 
-## Command
+### Command
 
-A command is an instruction you type into a terminal.
+A command is an instruction you type into a terminal, such as `git status`.
 
-Example:
+### Terminal
 
-```powershell
-git status
+A terminal is an application or panel where you type commands. This guide uses PowerShell on Windows and Terminal-style applications on Linux and macOS.
+
+### Shell
+
+A shell is the program inside a terminal that understands commands.
+
+PowerShell is the shell used in the Windows path. Bash is common on Linux, and Zsh is the default on modern macOS versions.
+
+### Current folder
+
+The current folder is where the terminal is working now.
+
+Check it with `Get-Location` in PowerShell or `pwd` on Linux and macOS.
+
+### Folder
+
+A folder contains files or other folders. Developers also call it a directory.
+
+### Home folder
+
+The home folder is the main folder for your user account. On Linux and macOS, `~` is a shortcut for it. PowerShell uses `$HOME`.
+
+### Path
+
+A path is the address of a file or folder.
+
+Examples:
+
+```text
+C:\Users\YourName\Documents\Projects
+/home/yourname/Projects
+/Users/yourname/Projects
 ```
 
-## command not found
+### PATH
 
-`command not found` means the terminal does not recognize the command you typed.
+`PATH` is a setting that tells a shell where to find commands. Reopening the terminal lets it read PATH changes made by an installer.
 
-Usually the tool is not installed, the command is misspelled, or the terminal needs to be reopened.
+### Hidden file or folder
 
-## Current folder
+A hidden item is normally not shown in a basic file listing. Git stores repository data in a hidden `.git` folder.
 
-The current folder is the folder where your terminal is working right now.
+### Case-sensitive
 
-On Linux, you can check it with:
+Case-sensitive means uppercase and lowercase letters are different. On Linux, `Projects` and `projects` can be different folders.
 
-```bash
-pwd
-```
+### Exact error message
 
-On Windows PowerShell, you can check it with:
+The exact error message is the full text shown when a command fails. It is more useful than a description such as "it does not work."
 
-```powershell
-Get-Location
-```
+### command not found
 
-## Exact error message
+This error means the shell cannot find the command. The tool may be missing, misspelled, or not yet available through PATH.
 
-The exact error message is the full text printed by the terminal when something fails.
+## Installing tools
 
-It is usually more useful than a general description like "it does not work".
-
-## curl
-
-`curl` is a command-line tool that can download data from a web address.
-
-In this guide, it is used to download the official `uv` installer.
-
-## Installer script
-
-An installer script is a script that installs a tool on your computer.
-
-Only run installer scripts from official sources you trust.
-
-## Package manager
+### Package manager
 
 A package manager installs, updates, and removes software.
 
-On Ubuntu and Debian, this guide uses `apt`.
+This guide uses Chocolatey on Windows, `apt` on Ubuntu and Debian, and Homebrew on macOS.
 
-On macOS, this guide uses Homebrew.
+### Chocolatey
 
-## Homebrew
+Chocolatey provides the `choco` command for installing software in the Windows path.
 
-Homebrew is a package manager used in the macOS path.
+### apt
 
-It provides the `brew` command for installing developer tools.
-
-## Apple Silicon
-
-Apple Silicon is the name for Apple-designed processors used in newer Macs.
-
-Homebrew commonly installs files under `/opt/homebrew` on these Macs.
-
-## .deb package
-
-A `.deb` package is an installer file used by Debian, Ubuntu, and similar Linux distributions.
-
-In this guide, Visual Studio Code is installed from an official `.deb` package.
-
-## apt
-
-`apt` is a command-line package manager used by Ubuntu, Debian, and similar Linux distributions.
+`apt` is the package manager used in the Ubuntu and Debian-focused Linux path.
 
 Example:
 
@@ -90,155 +86,55 @@ Example:
 sudo apt install git
 ```
 
-## sudo
+### Homebrew
 
-`sudo` runs a command with administrator permissions.
+Homebrew provides the `brew` command for installing developer tools in the macOS path.
 
-Linux may ask for your password when you use it.
+### sudo
 
-## Terminal
+`sudo` runs a Linux or macOS command with administrator permissions. The Linux path uses it for system package installation.
 
-A terminal is a place where you type commands.
+### Installer script
 
-On Windows, this guide uses PowerShell and the VS Code terminal.
+An installer script installs a tool by running a series of commands. Run installer scripts only from official sources you trust.
 
-## Shell
+### curl
 
-A shell is the program that understands terminal commands.
+`curl` downloads data from a web address. The Linux path uses it to download the official `uv` installer.
 
-PowerShell is a shell.
+### .deb package
 
-Bash is also a shell.
+A `.deb` file is an installer package used by Debian, Ubuntu, and similar Linux distributions.
 
-It is common on Linux.
+### Apple Silicon
 
-## Bash
+Apple Silicon is the name for Apple-designed processors in newer Macs. Homebrew commonly uses `/opt/homebrew` on these Macs.
 
-Bash is a common Linux shell.
+## Git and GitHub
 
-In this guide, Linux terminal examples use Bash-style commands.
+### Repository
 
-## Zsh
+A repository is a project folder that Git tracks. It contains project files and their saved history.
 
-Zsh is the default shell on modern macOS versions.
+### Git
 
-Most beginner commands in this guide work the same way in Bash and Zsh.
+Git tracks changes in files and saves versions of a project as commits.
 
-## Folder
+### GitHub
 
-A folder is a place that contains files or other folders.
+GitHub is a website that stores Git repositories online. Git works locally; GitHub stores an online copy.
 
-Developers often call folders `directories`.
+### 2FA
 
-## Hidden folder
+Two-factor authentication adds a second security check when signing in to an account.
 
-A hidden folder is a folder that is usually not shown by default.
+### Commit
 
-On Linux, hidden file and folder names often start with a dot.
+A commit is a saved point in Git history. It records selected changes with a short message.
 
-Example:
+### Stage
 
-```text
-.git
-```
-
-## Path
-
-A path is the address of a file or folder on your computer.
-
-Example:
-
-```text
-C:\Users\YourName\Documents\Projects
-```
-
-Example on Linux:
-
-```text
-/home/yourname/Projects
-```
-
-## Home folder
-
-Your home folder is the main folder for your user account.
-
-On Linux, it usually looks like:
-
-```text
-/home/yourname
-```
-
-The `~` symbol is a shortcut for your home folder.
-
-## Case-sensitive
-
-Case-sensitive means that uppercase and lowercase letters are treated as different.
-
-On Linux, these can be three different folder names:
-
-```text
-Projects
-projects
-PROJECTS
-```
-
-## Project
-
-A project is a folder that contains the files for one piece of work.
-
-In this guide, `my-first-python-project` is a project.
-
-## pyproject.toml
-
-`pyproject.toml` is a Python project configuration file.
-
-Tools such as `uv` use it to understand your project.
-
-## src folder
-
-The `src` folder is a common place to put Python project code.
-
-Recent `uv` application projects use a `src` layout by default.
-
-## Entry point
-
-An entry point is a command that runs code from your project.
-
-In this guide, `uv run my-first-python-project` runs the first project entry point.
-
-## Repository
-
-A repository is a project folder that Git tracks.
-
-It contains your files and the Git history for those files.
-
-## Git
-
-Git is a tool that tracks changes in files.
-
-It lets you save versions of your work with commits.
-
-## GitHub
-
-GitHub is a website where Git repositories can be stored online.
-
-Git works on your computer. GitHub stores a copy online.
-
-## 2FA
-
-2FA means two-factor authentication.
-
-It adds an extra security step when signing in.
-
-## Commit
-
-A commit is a saved point in your project history.
-
-It records what changed and includes a short message.
-
-## Stage
-
-To stage a file means to tell Git that this file should go into the next commit.
+To stage a file means to select it for the next commit.
 
 Example:
 
@@ -246,87 +142,101 @@ Example:
 git add README.md
 ```
 
-## Remote
+### Working tree
 
-A remote is a connection between your local Git repository and an online repository.
+The working tree is the current set of project files on your computer. A clean working tree has no uncommitted changes.
 
-In this guide, the remote usually points to GitHub.
+### Remote
 
-## origin
+A remote connects a local Git repository to an online repository.
 
-`origin` is the common name for the main remote repository.
+### origin
 
-In this guide, `origin` usually points to your GitHub repository.
+`origin` is the conventional name for the main remote repository.
 
-## HTTPS URL
+### HTTPS URL
 
-An HTTPS URL is a web address that Git can use to connect to GitHub.
-
-Example:
+An HTTPS URL is an address Git can use to connect to GitHub.
 
 ```text
-https://github.com/YOUR-USERNAME/github-practice.git
+https://github.com/YOUR-USERNAME/my-project.git
 ```
 
-## Upstream branch
+### Upstream branch
 
-An upstream branch is the remote branch that your local branch pushes to by default.
+An upstream branch is the remote branch used by default for later pushes and pulls.
 
-In this guide, this command sets it:
+This command creates that connection:
 
 ```bash
 git push -u origin main
 ```
 
-## Push
+### Push
 
-To push means to send your local commits to GitHub.
-
-Example:
-
-```powershell
-git push
-```
+To push means to send local commits to a remote repository such as GitHub.
 
 ## Visual Studio Code
 
+### Visual Studio Code
+
 Visual Studio Code, or VS Code, is the code editor used in this guide.
 
-It lets you edit files, open folders, and use an integrated terminal.
+### Code editor
 
-## Integrated terminal
+A code editor is an application for reading and changing source files. It understands programming file formats and project folders.
 
-An integrated terminal is a terminal panel inside VS Code.
+### Explorer
 
-It lets you run commands without leaving the editor.
+The Explorer is the VS Code panel that shows the files and folders in the open project.
 
-## Workspace Trust
+### Integrated terminal
 
-Workspace Trust is a VS Code feature that asks whether you trust a folder.
+The integrated terminal is a terminal panel inside VS Code. It lets you run project commands without leaving the editor.
 
-Trust folders you created yourself during this guide.
+### Workspace Trust
 
-Be more careful with folders downloaded from unknown sources.
+Workspace Trust asks whether you trust the files in an opened folder. Trust folders you created yourself and be careful with unknown downloads.
 
-## uv
+## Python projects
 
-`uv` is a tool for creating and running Python projects.
+### Project
 
-This guide uses it to create the first Python project and run that project.
+A project is a folder containing the files for one piece of work. This guide creates `my-first-python-project`.
 
-## uv.lock
+### Source code
 
-`uv.lock` records the exact dependency versions for a `uv` project.
+Source code is the text written in a programming language. The first project's Python source code lives inside `src`.
 
-It can be created or updated when you run a project.
+### pyproject.toml
 
-## Virtual environment
+`pyproject.toml` describes a Python project, including its name, Python requirement, build system, and dependencies.
 
-A virtual environment is an isolated place for a Python project.
+### src folder
 
-It helps one project keep its Python tools and packages separate from another project.
+The `src` folder keeps Python source code separate from configuration and documentation files.
 
-## Next step
+### Entry point
+
+An entry point is a command provided by a project. In this guide, `uv run my-first-python-project` runs the first application.
+
+### Dependency
+
+A dependency is a package that a project needs in order to work.
+
+### uv
+
+`uv` creates Python projects and manages Python versions, dependencies, environments, and lock files.
+
+### uv.lock
+
+`uv.lock` records exact dependency versions so a project can use the same resolved versions later.
+
+### Virtual environment
+
+A virtual environment is an isolated place for one project's Python and packages. `uv` creates it in `.venv` when needed.
+
+## Continue learning
 
 Return to:
 
