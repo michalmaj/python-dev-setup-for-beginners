@@ -1,5 +1,22 @@
 # Python Dev Setup for Beginners
 
+[![Documentation checks](https://github.com/michalmaj/python-dev-setup-for-beginners/actions/workflows/docs-checks.yml/badge.svg)](https://github.com/michalmaj/python-dev-setup-for-beginners/actions/workflows/docs-checks.yml)
+[![Latest release](https://img.shields.io/github/v/release/michalmaj/python-dev-setup-for-beginners?include_prereleases&sort=semver&label=release)](https://github.com/michalmaj/python-dev-setup-for-beginners/releases)
+[![Last commit](https://img.shields.io/github/last-commit/michalmaj/python-dev-setup-for-beginners)](https://github.com/michalmaj/python-dev-setup-for-beginners/commits/main)
+[![Open issues](https://img.shields.io/github/issues/michalmaj/python-dev-setup-for-beginners)](https://github.com/michalmaj/python-dev-setup-for-beginners/issues)
+[![Open pull requests](https://img.shields.io/github/issues-pr/michalmaj/python-dev-setup-for-beginners)](https://github.com/michalmaj/python-dev-setup-for-beginners/pulls)
+[![Code license: MIT](https://img.shields.io/badge/code%20license-MIT-2ea44f)](LICENSE-CODE)
+[![Content license: CC BY-SA 4.0](https://img.shields.io/badge/content%20license-CC%20BY--SA%204.0-2ea44f)](LICENSE-CONTENT)
+
+![Beginner friendly](https://img.shields.io/badge/level-beginner%20friendly-0969da)
+![Windows 11](https://img.shields.io/badge/Windows-11-0078d4?logo=windows11)
+![Ubuntu and Debian](https://img.shields.io/badge/Linux-Ubuntu%20%7C%20Debian-fcc624?logo=linux&logoColor=000)
+![macOS 15+](https://img.shields.io/badge/macOS-15%2B-000?logo=apple)
+![Git](https://img.shields.io/badge/Git-included-f05032?logo=git&logoColor=fff)
+![GitHub](https://img.shields.io/badge/GitHub-included-181717?logo=github)
+![Visual Studio Code](https://img.shields.io/badge/VS%20Code-included-007acc?logo=visualstudiocode)
+![uv](https://img.shields.io/badge/uv-included-de5fe9)
+
 A beginner-friendly guide to setting up a modern Python development environment from zero.
 
 This repository is for people who are new to programming tools and want to learn how to:
@@ -76,3 +93,10 @@ This repository follows beginner-first documentation rules:
 ## Related project
 
 This repository is intended as a beginner-friendly prequel to `modern-python-project-guide`.
+
+## License
+
+Code and configuration are available under the [MIT License](LICENSE-CODE).
+Educational and documentation content is available under the [CC BY-SA 4.0
+License](LICENSE-CONTENT). See [Licensing](LICENSING.md) for the exact scope and
+attribution requirements.
