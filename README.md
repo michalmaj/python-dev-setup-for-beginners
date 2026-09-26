@@ -37,11 +37,11 @@ Available now:
 - Windows completion checklist and troubleshooting,
 - complete first Linux path through a Python project created with `uv`,
 - Linux completion checklist and troubleshooting,
-- macOS path through the first local Git repository.
+- macOS path through the first repository pushed to GitHub.
 
 Planned next:
 
-- remaining macOS GitHub, VS Code, and `uv` workflow.
+- remaining macOS VS Code and `uv` workflow.
 
 ## Roadmap
 
