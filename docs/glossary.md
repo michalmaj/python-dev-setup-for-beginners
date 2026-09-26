@@ -60,6 +60,20 @@ A package manager installs, updates, and removes software.
 
 On Ubuntu and Debian, this guide uses `apt`.
 
+On macOS, this guide uses Homebrew.
+
+## Homebrew
+
+Homebrew is a package manager used in the macOS path.
+
+It provides the `brew` command for installing developer tools.
+
+## Apple Silicon
+
+Apple Silicon is the name for Apple-designed processors used in newer Macs.
+
+Homebrew commonly installs files under `/opt/homebrew` on these Macs.
+
 ## .deb package
 
 A `.deb` package is an installer file used by Debian, Ubuntu, and similar Linux distributions.
@@ -103,6 +117,12 @@ It is common on Linux.
 Bash is a common Linux shell.
 
 In this guide, Linux terminal examples use Bash-style commands.
+
+## Zsh
+
+Zsh is the default shell on modern macOS versions.
+
+Most beginner commands in this guide work the same way in Bash and Zsh.
 
 ## Folder
 
@@ -312,3 +332,5 @@ Return to:
 
 - [Start Here](00_start_here.md)
 - [Windows Path](windows/00_windows_path.md)
+- [Linux Path](linux/00_linux_path.md)
+- [macOS Path](macos/00_macos_path.md)

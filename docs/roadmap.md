@@ -301,7 +301,7 @@ Scope:
 
 ### Milestone 7: macOS setup path
 
-Status: Planned
+Status: In progress
 
 Goal: add the macOS version of the setup guide.
 
@@ -310,6 +310,8 @@ Scope:
 - Terminal basics,
 - Homebrew explanation,
 - Git installation,
+- Git configuration,
+- local Git repository practice,
 - VS Code installation,
 - `uv` installation,
 - first project workflow.
