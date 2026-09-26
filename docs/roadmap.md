@@ -370,6 +370,21 @@ Scope:
 - structured setup problem reports,
 - automated syntax checks for repository YAML files.
 
+### Milestone 10: First public alpha
+
+Status: Done
+
+Goal: prepare a clearly scoped, reviewable release for classroom pilots.
+
+Scope:
+
+- project health and scope badges,
+- explicit code and educational content licenses,
+- student-friendly issue forms,
+- repository description and discovery topics,
+- changelog and release notes,
+- `v1.0.0-alpha.1` prerelease tag.
+
 ## Out of scope for now
 
 The first version of this repository will not focus on:

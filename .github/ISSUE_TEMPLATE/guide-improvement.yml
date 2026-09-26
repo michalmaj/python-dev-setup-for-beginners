@@ -1,0 +1,64 @@
+name: Guide improvement
+description: Suggest a new topic, example, platform, or teaching improvement.
+title: "[Idea]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form for an improvement that is not a correction to an existing page. Keep the proposal focused on helping beginners set up their Python development environment.
+
+  - type: input
+    id: proposal
+    attributes:
+      label: Proposed improvement
+      placeholder: "Example: Add a short explanation of terminal autocomplete"
+    validations:
+      required: true
+
+  - type: textarea
+    id: beginner-problem
+    attributes:
+      label: Beginner problem it solves
+      description: Describe the confusion, missing skill, or repeated classroom question.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: scope
+    attributes:
+      label: Area of the guide
+      options:
+        - Shared introduction or concepts
+        - Windows path
+        - Linux path
+        - macOS path
+        - Classroom materials
+        - Repository tooling
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposed-content
+    attributes:
+      label: What should be added or changed?
+      description: Outline the new explanation, example, exercise, or workflow.
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Mention existing pages or simpler changes that could solve the same problem.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: Scope and privacy checks
+      options:
+        - label: This suggestion is intended to help complete beginners.
+          required: true
+        - label: I did not include passwords, tokens, recovery codes, or unrelated personal information.
+          required: true
