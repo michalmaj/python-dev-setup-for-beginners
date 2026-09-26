@@ -39,7 +39,8 @@ Available now:
 - complete first Linux path through a Python project created with `uv`,
 - Linux completion checklist and troubleshooting,
 - complete first macOS path through a Python project created with `uv`,
-- macOS completion checklist and troubleshooting.
+- macOS completion checklist and troubleshooting,
+- shared classroom preflight and student completion evidence.
 
 Possible next improvements:
 

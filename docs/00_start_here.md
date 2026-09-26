@@ -62,6 +62,10 @@ Available now:
 
 Each operating system path then covers Git, GitHub, Visual Studio Code, `uv`, the first project, and troubleshooting in one continuous sequence.
 
+After completing your path, prepare the results requested by your instructor:
+
+- [Student Completion Evidence](05_student_completion_evidence.md)
+
 ## Project roadmap
 
 The full project roadmap is available here:
