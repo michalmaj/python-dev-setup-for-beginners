@@ -56,11 +56,8 @@ Then continue with the path for your operating system.
 Available now:
 
 1. [Windows](windows/00_windows_path.md)
-
-Planned later:
-
-1. Linux
-2. macOS
+2. [Linux](linux/00_linux_path.md)
+3. [macOS](macos/00_macos_path.md)
 
 After that, later sections will cover:
 
@@ -119,11 +116,6 @@ Available now:
 17. Check your completed Windows setup
 18. Troubleshoot common Windows setup problems
 
-Planned next:
-
-1. Linux path
-2. macOS path
-
 ### Linux path
 
 Recommended for people using Ubuntu, Debian, or similar Linux distributions.
@@ -152,35 +144,31 @@ Available now:
 16. Check your completed Linux setup
 17. Troubleshoot common Linux setup problems
 
-Planned next:
-
-1. macOS path
-
-The full Linux path will cover:
-
-- open the terminal,
-- use basic shell commands,
-- install tools with the system package manager,
-- install Git,
-- install Visual Studio Code,
-- install `uv`,
-- create your first Python project.
-
 ### macOS path
 
 Recommended for people using macOS.
 
-This path is planned, but not written yet.
+Start here:
 
-It will cover:
+- [macOS Path](macos/00_macos_path.md)
 
-- open Terminal,
-- use basic shell commands,
-- optionally install Homebrew,
-- install Git,
-- install Visual Studio Code,
-- install `uv`,
-- create your first Python project.
+Available now:
+
+1. Open Terminal
+2. Learn basic shell commands
+3. Create a projects folder
+4. Install Homebrew
+5. Install Git
+6. Configure Git
+7. Create a local Git repository
+
+Planned next:
+
+1. Create a GitHub account and publish the repository
+2. Install and use Visual Studio Code
+3. Install `uv` and create the first Python project
+4. Check the completed macOS setup
+5. Troubleshoot common macOS setup problems
 
 ## Important idea
 
