@@ -110,7 +110,7 @@ Return to the troubleshooting page for your system:
 - [Linux Troubleshooting](linux/17_linux_troubleshooting.md)
 - [macOS Troubleshooting](macos/18_macos_troubleshooting.md)
 
-When you need more help, keep the full error message and use the repository's setup problem issue form.
+When you need more help, keep the full error message and use the repository's [setup problem issue form](https://github.com/michalmaj/python-dev-setup-for-beginners/issues/new?template=setup-problem.yml).
 
 ## Next step
 

@@ -16,7 +16,7 @@ This repository is for people who are new to programming tools and want to learn
 
 ## Status
 
-The first complete Windows, Linux, and macOS learning paths are available. The repository is now in an active review and polish phase.
+The first complete Windows, Linux, and macOS learning paths are available. Classroom preflight, completion evidence, and pilot materials are ready for supervised testing.
 
 ## Start here
 
