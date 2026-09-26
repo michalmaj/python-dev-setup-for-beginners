@@ -69,7 +69,9 @@ docs/macos/
 ├── 11_install_vscode.md
 ├── 12_open_project_in_vscode.md
 ├── 13_open_vscode_terminal.md
-└── 14_install_uv.md
+├── 14_install_uv.md
+├── 15_create_first_uv_project.md
+└── 16_commit_and_publish_first_project.md
 ```
 
 ## Terminal and shell
