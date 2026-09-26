@@ -311,6 +311,20 @@ Use links mainly for:
 - downloads,
 - further reading.
 
+Use relative paths for links to other repository pages:
+
+```markdown
+[Glossary](glossary.md)
+```
+
+Before opening a pull request, check local page and heading targets:
+
+```bash
+ruby scripts/check_markdown_links.rb
+```
+
+The command should finish without reporting invalid links.
+
 ## Page endings
 
 Each tutorial page should end with a short next step.

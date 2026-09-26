@@ -48,6 +48,16 @@ This catches trailing whitespace and basic formatting issues.
 
 Also review changed Markdown files as a beginner would. Check that links point to existing pages and that each tutorial has a clear next step.
 
+Run the local documentation link check:
+
+```bash
+ruby scripts/check_markdown_links.rb
+```
+
+This checks local Markdown file targets and heading fragments. External websites are not requested by this command.
+
 ## Pull Requests
 
-Keep pull requests small and focused. Include a short summary, list changed pages, and mention manual checks performed.
+Keep pull requests focused on one reviewable outcome. A larger pull request may contain several commits when the changes belong to the same documentation milestone.
+
+Include a short summary, list changed pages, and mention manual and automated checks performed.
