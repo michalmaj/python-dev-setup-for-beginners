@@ -63,7 +63,8 @@ docs/macos/
 ├── 05_install_git.md
 ├── 06_configure_git.md
 ├── 07_create_local_git_repository.md
-└── 08_create_github_account.md
+├── 08_create_github_account.md
+└── 09_create_github_repository.md
 ```
 
 ## Terminal and shell
