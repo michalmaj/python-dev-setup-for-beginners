@@ -61,6 +61,12 @@ This repository follows beginner-first documentation rules:
 - [Documentation Conventions](docs/conventions.md)
 - [Glossary](docs/glossary.md)
 
+## Classroom use
+
+- [Check Your Computer Before You Start](docs/00_before_you_start.md)
+- [Student Completion Evidence](docs/05_student_completion_evidence.md)
+- [Classroom Pilot Checklist](docs/instructors/00_pilot_checklist.md)
+
 ## Learning paths
 
 - [Windows path](docs/windows/00_windows_path.md): complete first version
