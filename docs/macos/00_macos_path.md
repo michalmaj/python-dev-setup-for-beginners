@@ -49,7 +49,7 @@ Follow the macOS path in this order:
 
 ## Current status
 
-The macOS path is being written.
+The macOS path has a complete first version.
 
 Available now:
 
@@ -62,7 +62,18 @@ docs/macos/
 ├── 04_install_homebrew.md
 ├── 05_install_git.md
 ├── 06_configure_git.md
-└── 07_create_local_git_repository.md
+├── 07_create_local_git_repository.md
+├── 08_create_github_account.md
+├── 09_create_github_repository.md
+├── 10_connect_git_with_github.md
+├── 11_install_vscode.md
+├── 12_open_project_in_vscode.md
+├── 13_open_vscode_terminal.md
+├── 14_install_uv.md
+├── 15_create_first_uv_project.md
+├── 16_commit_and_publish_first_project.md
+├── 17_macos_completion_checklist.md
+└── 18_macos_troubleshooting.md
 ```
 
 ## Terminal and shell
