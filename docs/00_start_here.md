@@ -46,10 +46,11 @@ This repository is organized into several learning paths.
 
 Start with the basic concepts:
 
-1. [What Is a Terminal?](01_what_is_a_terminal.md)
-2. [Files, Folders, and Paths](02_files_folders_and_paths.md)
-3. [Basic Terminal Commands](03_basic_terminal_commands.md)
-4. [What Are Git and GitHub?](04_what_are_git_and_github.md)
+1. [Check Your Computer Before You Start](00_before_you_start.md)
+2. [What Is a Terminal?](01_what_is_a_terminal.md)
+3. [Files, Folders, and Paths](02_files_folders_and_paths.md)
+4. [Basic Terminal Commands](03_basic_terminal_commands.md)
+5. [What Are Git and GitHub?](04_what_are_git_and_github.md)
 
 Then continue with the path for your operating system.
 

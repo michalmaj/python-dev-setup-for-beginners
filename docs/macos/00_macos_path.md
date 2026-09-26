@@ -8,6 +8,7 @@ It explains how to set up a beginner-friendly Python development environment on 
 
 Read these shared introductions first:
 
+- [Before You Start](../00_before_you_start.md)
 - [What Is a Terminal?](../01_what_is_a_terminal.md)
 - [Files, Folders, and Paths](../02_files_folders_and_paths.md)
 - [Basic Terminal Commands](../03_basic_terminal_commands.md)

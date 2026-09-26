@@ -23,6 +23,7 @@ The first complete Windows, Linux, and macOS learning paths are available. The r
 If you are completely new to developer tools, start with:
 
 - [Start Here](docs/00_start_here.md)
+- [Check Your Computer Before You Start](docs/00_before_you_start.md)
 
 This guide intentionally starts before Python itself. It first explains terminals, folders, command-line basics, Git, GitHub, VS Code, and only then moves to creating a Python project with `uv`.
 
