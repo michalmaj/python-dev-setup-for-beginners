@@ -167,12 +167,14 @@ Available now:
 8. Create a GitHub account
 9. Create a repository on GitHub
 10. Connect Git with GitHub
-
-Planned next:
-
-1. Install `uv` and create the first Python project
-2. Check the completed macOS setup
-3. Troubleshoot common macOS setup problems
+11. Install Visual Studio Code
+12. Open a project folder in VS Code
+13. Open the VS Code terminal
+14. Install `uv`
+15. Create your first Python project
+16. Commit and publish the first project
+17. Check your completed macOS setup
+18. Troubleshoot common macOS setup problems
 
 ## Important idea
 

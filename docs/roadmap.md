@@ -301,7 +301,7 @@ Scope:
 
 ### Milestone 7: macOS setup path
 
-Status: In progress
+Status: Done
 
 Goal: add the macOS version of the setup guide.
 
@@ -312,9 +312,12 @@ Scope:
 - Git installation,
 - Git configuration,
 - local Git repository practice,
+- first GitHub repository and push,
 - VS Code installation,
+- VS Code integrated terminal,
 - `uv` installation,
-- first project workflow.
+- first project workflow,
+- completion checklist and troubleshooting.
 
 ### Milestone 8: Troubleshooting and polish
 
@@ -326,10 +329,12 @@ Scope:
 
 - common Windows errors,
 - common Linux errors,
+- common macOS errors,
 - screenshots,
 - glossary,
 - Windows completion checklist,
 - Linux completion checklist,
+- macOS completion checklist,
 - verification steps,
 - links between related sections.
 

@@ -49,7 +49,7 @@ Follow the macOS path in this order:
 
 ## Current status
 
-The macOS path is being written.
+The macOS path has a complete first version.
 
 Available now:
 
@@ -71,7 +71,9 @@ docs/macos/
 ├── 13_open_vscode_terminal.md
 ├── 14_install_uv.md
 ├── 15_create_first_uv_project.md
-└── 16_commit_and_publish_first_project.md
+├── 16_commit_and_publish_first_project.md
+├── 17_macos_completion_checklist.md
+└── 18_macos_troubleshooting.md
 ```
 
 ## Terminal and shell
