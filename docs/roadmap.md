@@ -199,6 +199,8 @@ Status labels:
 - `In progress` means some pages exist, but the section is not complete yet.
 - `Planned` means the section has not been written yet.
 
+All three operating system paths now have a complete first version. Current work focuses on consistency, automated documentation checks, screenshots, and accessibility.
+
 ### Milestone 1: Repository foundation
 
 Status: Done
@@ -336,7 +338,22 @@ Scope:
 - Linux completion checklist,
 - macOS completion checklist,
 - verification steps,
-- links between related sections.
+- links between related sections,
+- cross-platform naming and workflow consistency,
+- automated local Markdown link checks.
+
+Completed in the current polish pass:
+
+- cross-platform path comparison,
+- consistent project publishing outcome,
+- reorganized glossary and navigation,
+- automated checks for local documentation links.
+
+Still planned:
+
+- focused screenshots,
+- accessibility review,
+- optional external-link validation.
 
 ## Out of scope for now
 
