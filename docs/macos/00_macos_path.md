@@ -58,7 +58,11 @@ docs/macos/
 ├── 00_macos_path.md
 ├── 01_open_terminal.md
 ├── 02_basic_shell_commands.md
-└── 03_create_projects_folder.md
+├── 03_create_projects_folder.md
+├── 04_install_homebrew.md
+├── 05_install_git.md
+├── 06_configure_git.md
+└── 07_create_local_git_repository.md
 ```
 
 ## Terminal and shell
