@@ -33,7 +33,9 @@ This repository is for people who are new to programming tools and want to learn
 
 ## Status
 
-The first complete Windows, Linux, and macOS learning paths are available. Classroom preflight, completion evidence, and pilot materials are ready for supervised testing.
+The first complete Windows, Linux, and macOS learning paths are available. The
+`v1.0.0-alpha.1` milestone is ready for supervised classroom testing. See the
+[changelog](CHANGELOG.md) for its scope and known limitations.
 
 ## Start here
 
