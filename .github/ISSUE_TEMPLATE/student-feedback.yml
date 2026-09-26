@@ -1,0 +1,74 @@
+name: Student feedback
+description: Share what helped or slowed you down while using the guide.
+title: "[Feedback]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Your experience helps improve the next classroom version. This issue is public, so describe the learning experience without sharing private account or computer information.
+
+  - type: dropdown
+    id: operating-system
+    attributes:
+      label: Learning path
+      options:
+        - Windows
+        - Linux
+        - macOS
+    validations:
+      required: true
+
+  - type: dropdown
+    id: completion
+    attributes:
+      label: How far did you get?
+      options:
+        - I completed the path
+        - I completed part of the path
+        - I stopped because I was blocked
+    validations:
+      required: true
+
+  - type: textarea
+    id: difficult-step
+    attributes:
+      label: Most difficult step
+      description: Include the page or section name when possible.
+    validations:
+      required: true
+
+  - type: textarea
+    id: helpful-step
+    attributes:
+      label: What helped most?
+      description: Mention an explanation, example, checklist, or troubleshooting step.
+    validations:
+      required: true
+
+  - type: textarea
+    id: missing-content
+    attributes:
+      label: What was missing?
+      description: Tell us what you wish the guide had explained or shown.
+    validations:
+      required: false
+
+  - type: dropdown
+    id: confidence
+    attributes:
+      label: Confidence after using the guide
+      options:
+        - Much more confident
+        - A little more confident
+        - About the same
+        - Less confident
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Privacy check
+      options:
+        - label: I removed passwords, tokens, recovery codes, and unrelated personal information.
+          required: true

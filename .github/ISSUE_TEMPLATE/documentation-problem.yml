@@ -1,0 +1,68 @@
+name: Documentation problem
+description: Report an unclear, incorrect, or outdated part of the guide.
+title: "[Docs]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping make the guide clearer. Issues are public. Do not include passwords, access tokens, recovery codes, or unrelated personal information.
+
+  - type: dropdown
+    id: problem-type
+    attributes:
+      label: Type of problem
+      options:
+        - A step is unclear
+        - Information is incorrect or outdated
+        - A command or link does not work
+        - A term is not explained
+        - Typo or formatting problem
+        - Other documentation problem
+    validations:
+      required: true
+
+  - type: input
+    id: guide-location
+    attributes:
+      label: Guide page and section
+      description: Provide the page path and nearest heading.
+      placeholder: "Example: docs/linux/08_install_git.md, Verify the installation"
+    validations:
+      required: true
+
+  - type: textarea
+    id: current-content
+    attributes:
+      label: What is wrong or unclear?
+      description: Explain where you became uncertain or what result differs from the guide.
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggested-improvement
+    attributes:
+      label: Suggested improvement
+      description: Describe wording, an example, or another change that would have helped you.
+    validations:
+      required: false
+
+  - type: dropdown
+    id: operating-system
+    attributes:
+      label: Operating system path
+      description: Select a path when the problem is platform-specific.
+      options:
+        - Not platform-specific
+        - Windows
+        - Linux
+        - macOS
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Privacy check
+      options:
+        - label: I removed passwords, tokens, recovery codes, and unrelated personal information.
+          required: true
