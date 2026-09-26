@@ -112,6 +112,8 @@ Return to the troubleshooting page for your system:
 
 When you need more help, keep the full error message and use the repository's [setup problem issue form](https://github.com/michalmaj/python-dev-setup-for-beginners/issues/new?template=setup-problem.yml).
 
+The repository and its issues are public. Remove unrelated personal information before submitting a report.
+
 ## Next step
 
 After the setup is accepted, continue with the course or the related `modern-python-project-guide` repository.

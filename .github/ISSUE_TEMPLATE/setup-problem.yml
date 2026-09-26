@@ -5,7 +5,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for reporting a setup problem. Do not include passwords, access tokens, 2FA codes, or recovery codes.
+        Thanks for reporting a setup problem. Issues in this public repository can be visible to everyone. Do not include passwords, access tokens, 2FA codes, recovery codes, or unrelated personal information.
 
   - type: dropdown
     id: operating-system
@@ -22,6 +22,15 @@ body:
         - Other
     validations:
       required: true
+
+  - type: input
+    id: interface-language
+    attributes:
+      label: Interface language
+      description: Menu and button names may differ from the English guide.
+      placeholder: "Example: English or Polish"
+    validations:
+      required: false
 
   - type: input
     id: operating-system-version

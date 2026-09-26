@@ -88,7 +88,9 @@ If a term feels unfamiliar, use the glossary:
 
 ### Windows path
 
-Recommended for people using Windows 10 or Windows 11.
+Recommended for people using Windows 11.
+
+Windows 10 may still run the tools, but Microsoft support ended on October 14, 2025. Check [Before You Start](00_before_you_start.md) before using it for a class.
 
 Start here:
 
