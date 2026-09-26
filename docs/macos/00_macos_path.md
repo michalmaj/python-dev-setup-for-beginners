@@ -62,7 +62,10 @@ docs/macos/
 ├── 04_install_homebrew.md
 ├── 05_install_git.md
 ├── 06_configure_git.md
-└── 07_create_local_git_repository.md
+├── 07_create_local_git_repository.md
+├── 08_create_github_account.md
+├── 09_create_github_repository.md
+└── 10_connect_git_with_github.md
 ```
 
 ## Terminal and shell
