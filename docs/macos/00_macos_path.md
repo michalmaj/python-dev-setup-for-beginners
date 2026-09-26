@@ -66,7 +66,8 @@ docs/macos/
 ├── 08_create_github_account.md
 ├── 09_create_github_repository.md
 ├── 10_connect_git_with_github.md
-└── 11_install_vscode.md
+├── 11_install_vscode.md
+└── 12_open_project_in_vscode.md
 ```
 
 ## Terminal and shell
