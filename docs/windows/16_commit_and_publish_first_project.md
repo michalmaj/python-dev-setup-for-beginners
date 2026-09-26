@@ -1,83 +1,37 @@
 # Commit and Publish the First Project
 
-After creating and running your first Python project, make a small change and save it with Git.
-
-This is the first full project workflow:
+Complete the first full Python workflow:
 
 ```text
-edit -> run -> check Git status -> commit
+edit -> run -> review -> commit -> push
 ```
 
 ## What you will learn
 
-In this section, you will learn how to:
+You will learn how to change the generated code, commit the complete project, create its GitHub repository, and push it online.
 
-- edit `main.py`,
-- run the project again,
-- check changed files with Git,
-- commit your change,
-- push the commit if your project has a GitHub remote.
+## Step 1: Open the Python file
 
-## Before you start
+In VS Code, open:
 
-You should already have created your first `uv` project.
-
-If not, read this section first:
-
-- [Create the First Python Project](15_create_first_uv_project.md)
-
-## Step 1: Open the project in VS Code
-
-Open PowerShell.
-
-Move into your project folder:
-
-```powershell
-cd $HOME\Documents\Projects\my-first-python-project
+```text
+src\my_first_python_project\__init__.py
 ```
 
-Open the folder in VS Code:
-
-```powershell
-code .
-```
-
-## Step 2: Open main.py
-
-In VS Code, open `main.py`.
-
-Find the line that prints a message.
-
-It may look similar to:
-
-```python
-print("Hello from my-first-python-project!")
-```
-
-## Step 3: Change the message
-
-Change the message to something simple:
+Change the generated greeting to:
 
 ```python
 print("Hello from my first Python project!")
 ```
 
-Save the file.
+Save the file with `Ctrl+S`.
 
-In VS Code, you can save with:
+## Step 2: Run the changed project
 
-```text
-Ctrl+S
-```
-
-## Step 4: Run the project again
-
-Open the VS Code terminal.
-
-Run:
+In the VS Code terminal, run:
 
 ```powershell
-uv run main.py
+uv run my-first-python-project
 ```
 
 Expected result:
@@ -86,9 +40,7 @@ Expected result:
 Hello from my first Python project!
 ```
 
-If you see your new message, the change worked.
-
-## Step 5: Check Git status
+## Step 3: Review the project
 
 Run:
 
@@ -96,159 +48,94 @@ Run:
 git status
 ```
 
-Git should show that `main.py` changed.
+Git should list the generated project files as untracked.
 
-You may also see files such as `uv.lock`.
-
-That is normal. `uv` can create or update a lock file when it runs the project.
-
-If Git says this is not a Git repository, run:
+Display the source file before staging it:
 
 ```powershell
-git init
+Get-Content src\my_first_python_project\__init__.py
 ```
 
-Then run `git status` again.
+Confirm that it contains the expected greeting.
 
-## Step 6: Stage the changed files
+## Step 4: Stage and commit the project
 
 Run:
 
 ```powershell
-git add main.py
+git add .
 ```
 
-This stages your Python file.
+The dot means all changes in the current project. This is appropriate here because `uv` created the folder and `.gitignore` excludes generated environment files.
 
-If `git status` shows another changed file, such as `uv.lock`, you can stage it too:
+Check the staged files with `git status`. You should not see `.venv` in the commit.
+
+Create the commit:
 
 ```powershell
-git add uv.lock
+git commit -m "feat: create first Python project"
 ```
 
-Only add files that Git shows in `git status`.
+## Step 5: Create an empty GitHub repository
 
-Now check again:
-
-```powershell
-git status
-```
-
-Git should show files ready to be committed.
-
-## Step 7: Commit the change
-
-Run:
-
-```powershell
-git commit -m "feat: update project greeting"
-```
-
-This creates a commit with your project change.
-
-## Step 8: Check the commit history
-
-Run:
-
-```powershell
-git log --oneline
-```
-
-You should see your new commit near the top.
-
-Example:
+Open this page in your browser:
 
 ```text
-abc1234 feat: update project greeting
+https://github.com/new
 ```
 
-## Step 9: Push if your project has a remote
+Name the repository `my-first-python-project`. Choose public or private visibility.
 
-If this project is connected to GitHub, run:
+Do not add a README, `.gitignore`, or license because those files already exist locally.
+
+Create the repository and copy its HTTPS URL.
+
+## Step 6: Connect and push
+
+Replace the username and run:
 
 ```powershell
-git push
+git remote add origin https://github.com/YOUR-USERNAME/my-first-python-project.git
 ```
 
-If this project is not connected to GitHub yet, skip this step for now.
+Check the address with `git remote -v`, then push:
 
-You already practiced connecting Git and GitHub with `github-practice`.
+```powershell
+git push -u origin main
+```
 
-Later, you can repeat that same pattern for this Python project.
+Complete the official GitHub sign-in prompt if it appears.
+
+## Step 7: Verify the published project
+
+Refresh the repository page on GitHub. You should see `README.md`, `pyproject.toml`, `src`, and `uv.lock`.
+
+The `.venv` folder should not appear.
 
 ## Common problems
 
-### The output did not change
+### The changed output does not appear
 
-Make sure you saved `main.py`.
+Save the file with `Ctrl+S`, check the current folder, and run the application again.
 
-In VS Code, press:
+### .venv appears in git status
 
-```text
-Ctrl+S
-```
-
-Then run:
+Do not commit it. Check that `.gitignore` contains `.venv`. If it is staged, run:
 
 ```powershell
-uv run main.py
+git restore --staged .venv
 ```
 
-again.
+### origin already exists
 
-### Git says nothing to commit
+Run `git remote -v`. If the URL is wrong, use `git remote set-url origin` followed by the correct HTTPS URL.
 
-This usually means the file was not changed or not saved.
+### The push is rejected
 
-Run:
-
-```powershell
-git status
-```
-
-Then open `main.py` and check whether your new message is still there.
-
-### Git says a file path did not match any files
-
-You may have tried to add a file that does not exist in your project.
-
-Use `git status` to see the actual changed files.
-
-Then add the files Git lists.
-
-Example:
-
-```powershell
-git add main.py
-```
-
-### git push says no configured push destination
-
-This project is not connected to GitHub yet.
-
-That is okay.
-
-You can connect it later using the same idea from:
-
-- [Connect Git with GitHub](10_connect_git_with_github.md)
-
-## Key idea
-
-The basic project workflow is:
-
-```text
-edit a file
-run the project
-check git status
-git add
-git commit
-git push when a remote exists
-```
+Confirm that the GitHub repository is empty and that its name and owner match the remote URL.
 
 ## Next step
 
-You now have a working first Python project.
-
-Next, check that your Windows setup is complete:
+Verify the entire Windows setup:
 
 - [Windows Completion Checklist](17_windows_completion_checklist.md)
