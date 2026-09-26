@@ -152,4 +152,6 @@ In TextEdit, choose `Format > Make Plain Text`, save the file, and try again.
 
 ## Next step
 
-The local repository is ready. Next, you will create a GitHub account and publish it online.
+The local repository is ready. Next, create or check your GitHub account:
+
+- [Create a GitHub Account](08_create_github_account.md)

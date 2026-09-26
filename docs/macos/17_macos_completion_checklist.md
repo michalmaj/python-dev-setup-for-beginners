@@ -112,4 +112,6 @@ Do not reinstall everything. Start with the exact failing command and use:
 
 ## Next step
 
-You have completed the first macOS setup path. Use the troubleshooting page whenever a familiar command stops working.
+You have completed the first macOS setup path. Keep the troubleshooting guide nearby:
+
+- [macOS Troubleshooting](18_macos_troubleshooting.md)
