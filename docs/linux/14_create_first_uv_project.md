@@ -260,4 +260,4 @@ uv run project-name
 
 Next, learn how to make a small change and save it with Git.
 
-- [Make the First Project Commit](15_make_first_project_commit.md)
+- [Commit and Publish the First Project](15_commit_and_publish_first_project.md)

@@ -150,6 +150,6 @@ Before pushing code from your computer to GitHub, make sure you can sign in and 
 
 ## Next step
 
-Next, create a small local Git repository:
+Next, create an empty repository on GitHub:
 
-- [Create a Local Git Repository](08_create_local_git_repository.md)
+- [Create a Repository on GitHub](09_create_github_repository.md)

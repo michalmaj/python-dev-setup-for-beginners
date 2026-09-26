@@ -1,4 +1,4 @@
-# Open a Folder in VS Code
+# Open a Project in VS Code
 
 Visual Studio Code works best when you open a project folder.
 

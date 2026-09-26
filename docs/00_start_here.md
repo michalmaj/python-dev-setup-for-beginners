@@ -59,13 +59,7 @@ Available now:
 2. [Linux](linux/00_linux_path.md)
 3. [macOS](macos/00_macos_path.md)
 
-After that, later sections will cover:
-
-1. Git and GitHub
-2. Visual Studio Code
-3. uv and Python projects
-4. First commit and push
-5. Troubleshooting
+Each operating system path then covers Git, GitHub, Visual Studio Code, `uv`, the first project, and troubleshooting in one continuous sequence.
 
 ## Project roadmap
 
@@ -110,12 +104,9 @@ Available now:
 11. Install Visual Studio Code
 12. Open a project folder in VS Code
 13. Open the VS Code terminal
-11. Install Visual Studio Code
-12. Open a project folder in VS Code
-13. Open the VS Code terminal
 14. Install `uv`
 15. Create your first Python project
-16. Make the first project commit
+16. Commit and publish the first project
 17. Check your completed Windows setup
 18. Troubleshoot common Windows setup problems
 
@@ -143,7 +134,7 @@ Available now:
 12. Open the VS Code terminal
 13. Install `uv`
 14. Create your first Python project
-15. Make the first project commit
+15. Commit and publish the first project
 16. Check your completed Linux setup
 17. Troubleshoot common Linux setup problems
 

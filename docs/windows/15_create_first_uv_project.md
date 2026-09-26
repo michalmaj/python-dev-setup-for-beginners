@@ -252,4 +252,4 @@ uv run main.py
 
 Next, learn how to make a small change and save it with Git.
 
-- [Make the First Project Commit](16_make_first_project_commit.md)
+- [Commit and Publish the First Project](16_commit_and_publish_first_project.md)

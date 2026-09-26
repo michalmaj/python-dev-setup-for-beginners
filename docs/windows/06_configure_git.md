@@ -228,4 +228,4 @@ git config --global init.defaultBranch main
 
 Next, create a GitHub account:
 
-- [Create a GitHub Account](07_create_github_account.md)
+- [Create a Local Git Repository](07_create_local_git_repository.md)

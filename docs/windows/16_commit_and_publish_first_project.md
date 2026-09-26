@@ -1,4 +1,4 @@
-# Make the First Project Commit
+# Commit and Publish the First Project
 
 After creating and running your first Python project, make a small change and save it with Git.
 

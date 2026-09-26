@@ -256,6 +256,6 @@ create or edit files -> git add -> git commit
 
 ## Next step
 
-Next, create an empty repository on GitHub:
+Next, create or check your GitHub account:
 
-- [Create a Repository on GitHub](09_create_github_repository.md)
+- [Create a GitHub Account](08_create_github_account.md)

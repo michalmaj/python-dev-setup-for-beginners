@@ -56,15 +56,13 @@ Follow the Linux path in this order:
 8. Create a repository on GitHub
 9. Connect Git with GitHub
 10. Install Visual Studio Code
-11. Open a folder in VS Code
+11. Open a project in VS Code
 12. Open the VS Code terminal
 13. Install `uv`
 14. Create the first Python project
-15. Run the project
-16. Make the first commit
-17. Push the project to GitHub
-18. Check your completed setup
-19. Troubleshoot common problems
+15. Commit and publish the first project
+16. Check your completed setup
+17. Troubleshoot common problems
 
 ## Current status
 
@@ -89,7 +87,7 @@ docs/linux/
 ├── 12_open_vscode_terminal.md
 ├── 13_install_uv.md
 ├── 14_create_first_uv_project.md
-├── 15_make_first_project_commit.md
+├── 15_commit_and_publish_first_project.md
 ├── 16_linux_completion_checklist.md
 └── 17_linux_troubleshooting.md
 ```

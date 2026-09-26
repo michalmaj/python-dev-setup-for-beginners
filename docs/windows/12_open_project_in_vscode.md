@@ -1,4 +1,4 @@
-# Open a Folder in VS Code
+# Open a Project in VS Code
 
 Visual Studio Code works best when you open a project folder.
 
@@ -25,7 +25,7 @@ You should already have:
 If not, read these sections first:
 
 - [Install Visual Studio Code](11_install_vscode.md)
-- [Create a Local Git Repository](08_create_local_git_repository.md)
+- [Create a Local Git Repository](07_create_local_git_repository.md)
 
 ## Step 1: Open PowerShell
 

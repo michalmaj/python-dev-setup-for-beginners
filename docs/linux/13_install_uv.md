@@ -1,4 +1,4 @@
-# Install uv
+# Install uv on Linux
 
 `uv` is a tool for creating and running Python projects.
 
