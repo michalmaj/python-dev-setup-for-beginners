@@ -134,4 +134,6 @@ The integrated terminal is a normal project terminal inside the editor. You can 
 
 ## Next step
 
-The VS Code workflow is ready. Next, install `uv` and create the first Python project.
+The VS Code workflow is ready. Next, install `uv`:
+
+- [Install uv on macOS](14_install_uv.md)
