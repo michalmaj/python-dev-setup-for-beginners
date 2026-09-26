@@ -136,4 +136,6 @@ local repository on your Mac -> origin -> repository on GitHub
 
 ## Next step
 
-The first GitHub workflow is complete. Next, install Visual Studio Code and open a project in it.
+The first GitHub workflow is complete. Next, install Visual Studio Code:
+
+- [Install Visual Studio Code on macOS](11_install_vscode.md)
